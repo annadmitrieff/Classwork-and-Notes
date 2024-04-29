@@ -236,13 +236,176 @@ $${\color{magenta}\text{D: Think of the }\pi^+ \text{ mesons for A. B is general
 
 ### **S3 Multiple-Choice Questions**
 
-- **1)**
-  - A)
-  - B)
-  - C)
-  - D)
-  - E)
-$${\color{blue}\text{}}$$
+- **1) What do we mean by the straightest possible path between two points on Earth's surface?**
+  - A) a path that actually is a perfectly straight line
+  - B) a path that follows a circle of latitude
+  - C) a path that follows a circle of longitude
+  - D) a path that crosses the equator
+  - E) the shortest path between the two points
+$${\color{blue}\text{E: The shortest path isn't specific to a direction or following a latitudinal or longitudinal line--it's just the shortest path along the surface between two points.}}$$
+
+- **2) Which of the following statements is *not* a prediction of the general theory of relativity?**
+  - A) Time runs slightly slower on the surface of the Sun than on the surface of Earth.
+  - B) The Universe has no boundaries and no center.
+  - C) The curvature of spacetime can distort the appearance of distant objects.
+  - D) Different observers can disagree about the fundamental structure of spacetime.
+  - E) A binary star system with two stars orbiting each other rapidly emits gravitational waves.
+$${\color{blue}\text{D: Time does run slower on the Sun than on the Earth because the Sun is more massive. The universe has no boundaries because it's infinite and thus has no center, because centers imply finiteness. The curvature of spacetime can distort appearances. Think: gravitational lensing. Binary star systems do emit gravitational waves.}}$$
+
+- **3) What does the equivalence principle say?**
+  - A) Gravity is the same thing as curvature of spacetime.
+  - B) The effects of gravity are exactly equivalent to the effects of acceleration.
+  - C) You cannot distinguish between motion at constant velocity and weight in a gravitational field.
+  - D) The effects of relativity are exactly equivalent to those predicted by Newton's laws of motion.
+  - E) All observers must always measure the same (equivalent) weights for moving objects.
+$${\color{blue}\text{B: The equivalence principle states that inertial and gravitational forces are similar in nature and usually indistinguishable.}}$$
+
+- **4) Suppose Einstein had never lived and did not publish the special theory of relativity in 1905. According to most historians of science, when would someone else have discovered the theory?**
+  - A) Within a year.
+  - B) In about 10 to 20 years.
+  - C) In about 50 years.
+  - D) We still wouldn't know about it today.
+  - E) If Einstein hadn't lived, space and time would be very different, and the theory would have been discovered by the ancient Greeks.
+$${\color{blue}\text{A: Hilbert was basically racing Einstein for the last equation.}}$$
+
+
+- **5) Al is floating freely in her spacecraft, and you are accelerating away from her with an acceleration of 1g. How will you feel in your spacecraft?**
+  - A) You will be floating weightlessly.
+  - B) You will feel weight, but less than on Earth.
+  - C) You will feel weight, but more than on Earth.
+  - D) You will feel the same weight as you do on Earth.
+  - E) You will feel yourself pressed against the back of your spaceship with great force, making it difficult to move.
+$${\color{blue}\text{D: 1g implies acceleration of }9.81m/s^{2} \text{, which is equivalent to the force of gravity on Earth.}}$$
+
+- **6) Suppose you claim that you are feeling the effects of a gravitational field. How can you explain the fact that Al is weightless?**
+  - A) She is weightless because she is moving at constant velocity.
+  - B) She is weightless because she is in a free-float frame.
+  - C) She is weightless because she is in free-fall.
+  - D) D) If you are in a gravitational field, then she cannot be weightless.
+$${\color{blue}\text{C: Remember--free-float without gravity is to free-fall with gravity.}}$$
+
+- **7) Imagine that you are sitting in a closed room (no windows, no doors) when, magically, it is lifted from Earth and sent accelerating through space with an acceleration of 1g (9.8 m/s2). According to Einstein's equivalence principle, which of the following is true?**
+  - A) You won't feel any change and will have no way to know that you've left Earth.
+  - B) You'll feel a force that will cause your head to repeatedly bang into the ceiling.
+  - C) You'll know that you left Earth because when you drop a ball it will fall sideways.
+  - D) You'll know that you left Earth because you'll be floating weightlessly in your room.
+$${\color{blue}\text{A: Recall the equivalence principle.}}$$
+
+- **8) What do we mean by *dimension* in the context of relativity?**
+  - A) the size of an object
+  - B) the number of independent directions in which movement is possible
+  - C) the letter used to represent length mathematically
+  - D) the number of sides that we can see when we look at an object
+  - E) the height of an object
+$${\color{blue}\text{B: smells like the implications of a basis...}}$$
+
+- **9) If you draw a spacetime diagram, the worldline of an object that is stationary in your reference frame is:**
+  - A) vertical.
+  - B) horizontal.
+  - C) slanted.
+  - D) curved.
+  - E) a circle.
+$${\color{blue}\text{A: Worldline diagrams indicate an object's position in space with respect to time. If an object is stationary, it will stay in the same space as time progresses (space on x, time on y).}}$$
+
+- **10) If you draw a spacetime diagram, the worldline of an object that is traveling by you at constant speed is:**
+  - A) vertical
+  - B) horizontal
+  - C) slanted
+  - D) curved
+  - E) a circle.
+$${\color{blue}\text{C: Again, think time plotted with respect to space. As time increases, an object's position in space changes along the x axis.}}$$
+
+- **12) Which of the following correctly describes what we mean by *a great circle* on the surface of Earth?**
+  - A) any circle on the surface whose center is at the center of Earth
+  - B) any circle of latitude
+  - C) any circle on the surface that intersects the equator
+  - D) any circle larger than 10,000 km in diameter
+  - E) any circle found on an English farm that happens to have been created by aliens
+$${\color{blue}\text{A: A great circle divides the sphere in two equal hemispheres.}}$$
+
+- **13) Which of the following correctly describes the conditions under which you will feel weightless, according to general relativity?**
+  - A) any time you are traveling through space at constant speed
+  - B) any time your worldline is perfectly straight
+  - C) any time your worldline is following the straightest possible path through spacetime
+  - D) any time you are very far from any planet
+  - E) You can never be truly weightless.
+$${\color{blue}\text{C: Weightlessness is associated with either floating freely sans-gravity or freefall with gravity. If your worldline is following the straightest possible path through spacetime, it means you are in freefall.}}$$
+
+- **14) Suppose two lines appear to be parallel but eventually meet. What type of geometry are you dealing with?**
+  - A) flat geometry
+  - B) spherical geometry
+  - C) saddle-shaped geometry
+  - D) Euclidean geometry
+  - E) This situation can never occur.
+$${\color{blue}\text{B: We can infer that the surface must be curved. With hyperbolic geometry, parallel lines curve away from each-other. Saddle-shaped introduces both concave and convex curves, so it's not definitive. Spherical is the right answer here. }}$$
+
+- **15) According to general relativity, why does Earth orbit the Sun?**
+  - A) Earth is following the straightest path possible, but spacetime is curved in such a way that this path goes around the Sun.
+  - B) The mysterious force that we call gravity holds Earth in orbit.
+  - C) Earth and the Sun are connected by a "ropelike" set of invisible, subatomic particles.
+$${\color{blue}\text{A: General relativity describes distortion of spacetime due to the massive-ness of an object (the mass of an object? Grammar?)}}$$
+
+- **16) According to general relativity, a black hole is:**
+  - A) an object that cannot be seen.
+  - B) a hole in the observable universe.
+  - C) a place where light travels slower than the normal speed of light.
+  - D) a place where light travels faster than the normal speed of light.
+  - E) a place where there is no gravity.
+$${\color{blue}\text{B: Black holes can be seen. Light travels at a constant speed in all reference frames. The whole point of black holes is their crazy gravity.}}$$
+
+- **17) According to general relativity, how is time affected by gravity?**
+  - A) Time is not affected by gravity.
+  - B) Time is affected by gravity, but not in a predictable way.
+  - C) Time is stopped by any gravitational field.
+  - D) Time runs faster in stronger gravitational fields.
+  - E) Time runs slower in stronger gravitational fields.
+$${\color{blue}\text{E: Think of it as time trying to progress but struggling to resist the stationary pull of gravity.}}$$
+
+- **18) Why do we see a gravitational redshift in the spectrum of the Sun?**
+  - A) Gravity makes light heavy, causing it to appear redder.
+  - B) Because of gravity, the Sun is always moving away from us, so we see a redshift.
+  - C) Time runs slower on the Sun than on Earth, making lines in the solar spectrum have lower frequency and hence longer wavelength than normal.
+  - D) Spacetime curvature allows red photons of light to escape the Sun more easily than blue photons, leading to an apparent redshift.
+$${\color{blue}\text{C: A stronger force of gravity causes light's wavelength to lengthen because time slows.}}$$
+
+- **19) Spacetime curvature allows red photons of light to escape the Sun more easily than blue photons, leading to an apparent redshift.**
+  - A) Gravitational waves are frequently and easily detected by large telescopes.
+  - B) Gravitational waves have been detected by observing their effect on large masses suspended on Earth.
+  - C) The orbit of a star system consisting of two neutron stars is slowly decaying, suggesting that energy is being carried away by gravitational waves.
+  - D) The energy generated by gravitational waves from the Sun can be seen as it is absorbed by Jupiter.
+  - E) Photographs of spacetime show the gravitational waves as ripples that are clearly visible.
+$${\color{blue}\text{C: Orbits of neutron stars decay and they eventually fall into each-other. This is explained by these gravitational waves that ripple out, carrying energy with them.}}$$
+
+- **20) Each of the following is a prediction of the theory of relativity. Which one is crucial to understanding how the Sun provides light and heat to Earth?**
+  - A) If you observe someone moving by you, you'll see their time running slowly.
+  - B) Gravity is curvature of spacetime.
+  - C) $E = mc^2$
+  - D) Time runs slower on the surface of the Sun than on Earth.
+  - E) Space is different for different observers. Time is different for different observers. Spacetime is the same for everyone.
+$${\color{blue}\text{C: A discussion about energy is most relevant when describing light and heat.}}$$
+
+- **21) In the text is a photograph that appears to show four identical galaxies arranged as a cross. What are we really seeing?**
+  - A) four galaxies that are nearly identical because they were born at about the same time
+  - B) four images of a single background galaxy, created by the gravitational lens of a massive foreground galaxy or cluster
+  - C) a large galaxy with four central masses that glow brightly
+  - D) a picture taken with a poorly made telescope, so that a single large object appears as four fuzzy dots
+$${\color{blue}\text{B: Gravitational lensing can cause distortions including duplication.}}$$
+
+- **22) Which of the following is *false?***
+  - A) The speed of light in a vacuum is constant.
+  - B) Nothing can move faster than the speed of light.
+  - C) Observers in different reference frames measure the same speed of light.
+  - D) The absoluteness of the speed of light is an experimentally verified fact.
+  - E) The speed of light slows down near a black hole.
+$${\color{blue}\text{E: The speed of light is constant in all reference frames.}}$$
+
+- **23) Which of the following is *false?***
+  - A) The order of events can be different for observers in different reference frames.
+  - B) From your point of view, time runs slower in the reference frame of anyone moving relative to you.
+  - C) If one observer measures two events to be simultaneous, all observers must agree on their simultaneity.
+  - D) Time dilation is an observationally verified fact.
+  - E) Time runs slower near a black hole.
+$${\color{blue}\text{C: Time is relative and thus events may not be simultaneous in all reference frames.}}$$
 
 ### **18 Multiple-Choice Questions**
 
