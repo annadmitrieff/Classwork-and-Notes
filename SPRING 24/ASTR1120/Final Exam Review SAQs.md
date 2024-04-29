@@ -61,8 +61,46 @@ Content from Ch. [S2](#s2-free-response-questions), [S3](#s3-free-response-quest
 
 ### **18 Free-Response Questions**
 
+- **1) Could our Sun ever undergo a nova or a white-dwarf supernova event? Why or why not?**
+  - No: although our Sun could turn into a white-dwarf as it is a main sequence star with mass $M_{sun}$, it is not a binary star. White dwarf supernovae only occur in binary star systems.
+
+- **2) Why does the size of a white dwarf decrease with increasing mass?**
+  - As the mass of a white dwarf increases, the force of gravity holding it together strengthens as well. Electron degeneracy pressure can only resist it so much, and thus the white dwarf becomes smaller and denser.
+
+- **3) Briefly describe how a nova event occurs.**
+  - A white dwarf nova event occurs when a white dwarf in a binary system accrues enough material from its binary companion that its mass exceeds $1.4M_{sun}$. After it exceeds this limit, the Chandrasekhar limit, the hydrogen undergoes fusion due to the failure of electron degeneracy pressure in resisting the force of gravity, generating the nova.
+ 
+- **4) Why do white-dwarf supernovae all have the same maximum luminosity?**
+  - All white-dwarf supernovae occur in white dwarf binary systems where the white dwarf's mass has exceeded $1.4M_{sun}$, the Chandrasekhar limit. Since the mass of white dwarfs becoming supernovae is the same, the explosion's maximum luminosity (contingent on energy) is also approximately the same.
+
+- **5) What is an x-ray bursar? What causes the x-ray bursts?**
+  - An x-ray bursar is a neutron star in a close binary system. The x-ray bursts are caused by helium fusion taking place on the neutron star's surface.
+
+- **6) **
+  - 
+
+- **7) **
+  - 
+
+- **8) **
+  - 
+
+- **9) **
+  - 
+
+- **10) **
+  - 
+
 ### **19 Free-Response Questions**
+- **1) **
+  - 
+
 
 ### **20 Free-Response Questions**
+- **1) **
+  - 
+
 
 ### **21 Free-Response Questions**
+- **1) **
+  - 
