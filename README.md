@@ -1,2 +1,2 @@
-# Classwork-Notes
+# Classwork-and-Notes
 Notes &amp; assignments for my classes.
