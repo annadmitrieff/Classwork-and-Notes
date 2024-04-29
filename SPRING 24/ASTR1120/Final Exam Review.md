@@ -3,7 +3,24 @@ Multiple-Choice questions from **The Cosmic Perspective**. All questions are sou
 Content from Ch. [S2](#s2-multiple-choice-questions), [S3](#s3-multiple-choice-questions), [18](#18-multiple-choice-questions), [19](#19-multiple-choice-questions), [20](#20-multiple-choice-questions), [21](#21-multiple-choice-questions).
 
 ### **S2 Multiple-Choice Questions**
+
+- **1)**
+  - A)
+  - B)
+  - C)
+  - D)
+  - E)
+$${\color{orange}\text{}}$$
+
 ### **S3 Multiple-Choice Questions**
+
+- **1)**
+  - A)
+  - B)
+  - C)
+  - D)
+  - E)
+$${\color{orange}\text{}}$$
 
 ### **18 Multiple-Choice Questions**
 
@@ -175,133 +192,143 @@ $${\color{orange}\text{B: A describes Cepheid Variable Stars. C is something pos
   - E) A black hole near the star absorbs energy and re-emits it as radio waves.
 $${\color{orange}\text{B: Most probable answer as pulsars' key 'feature' is their sweeping rotation.}}$$
 
-- **22)**
-  - A)
-  - B)
-  - C)
-  - D)
-  - E)
-$${\color{orange}\text{}}$$
+- **22) How do we know that pulsars are neutron stars?**
+  - A) We have observed massive-star supernovae produce pulsars.
+  - B) Pulsars and neutron stars look exactly the same.
+  - C) No massive object, other than a neutron star, could spin as fast as we observe pulsars spin.
+  - D) Pulsars have the same upper mass limit as neutron stars do.
+  - E) none of the above
+$${\color{orange}\text{C: We know it's not D because the upper mass limit for pulsars is } 3.2M_{sun} \text{and the upper mass limit for neutron stars is, like, } 1.6M_{sun}. \text{ B is a bit of a stretch (pulsars have that lighthouse effect), A isn't true because pulsars were found due to their strobing. C makes sense because neutron stars are super dense and super energetic.}}$$
 
-- **23)**
-  - A)
-  - B)
-  - C)
-  - D)
-  - E)
-$${\color{orange}\text{}}$$
+- **23) What is the ultimate fate of an isolated pulsar?**
+  - A) It will spin ever faster, becoming a millisecond pulsar.
+  - B) As gravity overwhelms the neutron degeneracy pressure, it will explode as a supernova.
+  - C) As gravity overwhelms the neutron degeneracy pressure, it will become a white dwarf.
+  - D) It will slow down, the magnetic field will weaken, and it will become invisible.
+  - E) The neutron degeneracy pressure will eventually overwhelm gravity and the pulsar will
+slowly evaporate.
+$${\color{orange}\text{D: A implies no upper limit (there always is one--c). Neutron stars result from supernovae of massive stars, so B doesn't work. C doesn't hold because white dwarfs and neutron stars are completely different yet 'parallel' things. E doesn't make sense because that's not how neutron degeneracy pressure works (the evaporation part).}}$$
 
-- **24)**
-  - A)
-  - B)
-  - C)
-  - D)
-  - E)
-$${\color{orange}\text{}}$$
+- **24) What is the basic definition of a black hole?**
+  - A) any compact mass that emits no light
+  - B) a dead star that has faded from view
+  - C) any object from which the escape velocity exceeds the speed of light
+  - D) any object made from dark matter
+  - E) a dead galactic nucleus that can only be viewed in infrared
+$${\color{orange}\text{C: The key idea from pop culture about black holes is the inescapability of their tug; perhaps overblown for light and matter beyond their event horizon, but the idea is still relevant.}}$$
 
-- **25)**
-  - A)
-  - B)
-  - C)
-  - D)
-  - E)
-$${\color{orange}\text{}}$$
+- **25) How does the gravity of an object affect light?**
+  - A) Light doesn't have mass; therefore, it is not affected by gravity.
+  - B) Light coming from a compact massive object, such as a neutron star, will be redshifted.
+  - C) Light coming from a compact massive object, such as a neutron star, will be blueshifted.
+  - D) Visible light coming from a compact massive object, such as a neutron star, will be redshifted, but higher frequencies such as X rays and gamma rays will not be affected.
+  - E) Less energetic light will not be able to escape from a compact massive object, such as a neutron star, but more energetic light will be able to.
+$${\color{orange}\text{B: Think about the light emitted from galaxies moving away from us. It is redshifted (elongated) as it travels through distorted spacetime. Same happens in a more general case with regard to this question.}}$$
 
-- **26)**
-  - A)
-  - B)
-  - C)
-  - D)
-  - E)
-$${\color{orange}\text{}}$$
+- **26) How does a black hole form from a massive star?**
+  - A) During a supernova, if a star is massive enough for its gravity to overcome neutron degeneracy of the core, the core will be compressed until it becomes a black hole.
+  - B) Any star that is more massive than 8 solar masses will undergo a supernova explosion and leave behind a black-hole remnant.
+  - C) If enough mass is accreted by a white-dwarf star so that it exceeds the 1.4-solar-mass limit, it will undergo a supernova explosion and leave behind a black-hole remnant.
+  - D) If enough mass is accreted by a neutron star, it will undergo a supernova explosion and leave behind a black-hole remnant.
+  - E) A black hole forms when two massive main-sequence stars collide.
+$${\color{orange}\text{A: The key idea here is the massive amount of compression. Black holes don't occur from supernova explosions or star collisions, but from collapsed neutron stars.}}$$
 
-- **27)**
-  - A)
-  - B)
-  - C)
-  - D)
-  - E)
-$${\color{orange}\text{}}$$
+- **27) Which of the following statements about black holes is not true?**
+  - A) If you watch someone else fall into a black hole, you will never see him or her cross the event horizon. However, he or she will fade from view as the light he or she emits (or reflects) becomes more and more redshifted.
+  - B) If we watch a clock fall toward a black hole, we will see it tick slower and slower as it falls nearer to the black hole.
+  - C) A black hole is truly a hole in spacetime, through which we could leave the observable universe.
+  - D) If the Sun magically disappeared and was replaced by a black hole of the same mass, Earth would soon be sucked into the black hole.
+  - E) If you fell into a black hole, you would experience time to be running normally as you plunged rapidly across the event horizon.
+$${\color{orange}\text{D: The time dilation due to the black hole's gravity would make it seem as if time is standing still for someone inside the event horizon (or nearly), to an outside observer. Hence, A and B are true. We can neither really confirm nor deny C, but it's kinda true in that we don't know where they go? E is true because time dilation only appears to happen relative to us (i.e. we'd never feel the dilation, we'd just see people move really fast or slow).}}$$
 
-- **28)**
-  - A)
-  - B)
-  - C)
-  - D)
-  - E)
-$${\color{orange}\text{}}$$
+- **28) In some cases, a supernova in a binary system may lead to the eventual formation of an
+*accretion disk* around the remains of the star that exploded. All of the following statements about
+such accretion disks are true except**
+  - A) X rays are emitted by the hot gas in the accretion disk.
+  - B) the accretion disk consists of material that spills off the companion star.
+  - C) the central object about which the accretion disk swirls may be either a neutron star or a black hole.
+  - D) several examples of flattened accretion disks being "fed" by a large companion star can be seen clearly in photos from the Hubble Space Telescope.
+  - E) the radiation from an accretion disk may vary rapidly in time.
+$${\color{orange}\text{D: We can't see accretion disks because they're in the x-ray spectrum, not visible light (I think?)}}$$
 
-- **29)**
-  - A)
-  - B)
-  - C)
-  - D)
-  - E)
-$${\color{orange}\text{}}$$
+- **29) When we see X rays from an accretion disk in a binary system, we can't immediately tell whether the accretion disk surrounds a neutron star or a black hole. Suppose we then observe each of the following phenomena in this system. Which one would force us to immediately rule out the possibility of a black hole?**
+  - A) bright X-ray emission that varies on a time scale of a few hours
+  - B) spectral lines from the companion star that alternately shift to shorter and longer wavelengths
+  - C) sudden, intense X-ray bursts
+  - D) visible and ultraviolet light from the companion star
+$${\color{orange}\text{C: Sudden, intense bursts imply that stuff is getting out. It's not.}}$$
 
-- **30)**
-  - A)
-  - B)
-  - C)
-  - D)
-  - E)
-$${\color{orange}\text{}}$$
+- **30) What is the Schwarzschild radius of a 100 million-solar-mass black hole? The mass of the
+Sun is about $2 \times 10^{30}$ kg, and the formula for the Schwarzschild radius of a black hole of mass
+M is:**
 
-- **31)**
-  - A)
-  - B)
-  - C)
-  - D)
-  - E)
-$${\color{orange}\text{}}$$
+$$R_{s} = \dfrac{2GM}{c^2}, G = 6.67 \times 10^{-11} \dfrac{m^3}{kg \times s^2}, c = 3 \times 10^8 \dfrac{m}{s}$$
 
-- **32)**
-  - A)
-  - B)
-  - C)
-  - D)
-  - E)
-$${\color{orange}\text{}}$$
+  - A) 3km
+  - B) 30km
+  - C) 3,000km
+  - D) 300 million km
+  - E) 3 million km
+$${\color{orange}\text{D:} R_{s} = \dfrac{2 \cdot 6.67 \cdot 10^{-11} \cdot 100 \cdot 10^{6} \cdot 2 \cdot 10^{30}}{3 \cdot 10^8} \approx \text{300 million km}}$$
 
-- **33)**
-  - A)
-  - B)
-  - C)
-  - D)
-  - E)
-$${\color{orange}\text{}}$$
+- **31) A 10-solar-mass main-sequence star will produce which of the following remnants?**
+  - A) white dwarf
+  - B) neutron star
+  - C) black hole
+  - D) none of the above
+$${\color{orange}\text{B: massive main sequence } \implies \text{ neutron star. Regular main sequence } \implies \text{ white dwarf. Black holes form from collapsing neutron stars.}}$$
 
-- **34)**
-  - A)
-  - B)
-  - C)
-  - D)
-  - E)
-$${\color{orange}\text{}}$$
+- **32) What do we mean by the *singularity* of a black hole?**
+  - A) There are no binary black holes—each one is isolated.
+  - B) An object can become a black hole only once, and a black hole cannot evolve into anything else.
+  - C) It is the center of the black hole, a place of infinite density where the known laws of physics cannot describe the conditions.
+  - D) It is the edge of the black hole, where one could leave the observable universe.
+  - E) It is the "point of no return" of the black hole; anything closer than this point will not be able to escape the gravitational force of the black hole.
+$${\color{orange}\text{C: black holes can be in binary systems, so not A. B may be true, but that's not what a singularity is. D describes the event horizon (maybe). E describes the event horizon.}}$$
 
-- **35)**
-  - A)
-  - B)
-  - C)
-  - D)
-  - E)
-$${\color{orange}\text{}}$$
+- **33) How do we know what happens at the event horizon of a black hole?**
+  - A) Physicists have created miniature black holes in the lab.
+  - B) Astronomers have sent spacecraft through the event horizon of a nearby black hole.
+  - C) Astronomers have analyzed the light from matter within the event horizon of many black holes.
+  - D) Astronomers have detected X rays from accretion disks around black holes.
+  - E) We don't know for sure: we only know what to expect based on the predictions of general relativity.
+$${\color{orange}\text{E: We can't make black holes, we haven't sent anything through black holes, C wouldn't tell us about the inside, D wouldn't tell us about the inside.}}$$
 
-- **36)**
-  - A)
-  - B)
-  - C)
-  - D)
-  - E)
-$${\color{orange}\text{}}$$
+- **34) Prior to the 1990s, most astronomers assumed that gamma-ray bursts came from neutron stars with accretion disks. How do we now know that this hypothesis was wrong?**
+  - A) We now know that gamma-ray bursts come not from neutron stars but from black holes.
+  - B) Theoretical work has proven that gamma rays cannot be produced in accretion disks.
+  - C) Observations from the Compton Gamma-Ray Observatory show that gamma-ray bursts come randomly from all directions in the sky.
+  - D) Observations from the Compton Gamma-Ray Observatory show that gamma-ray bursts occur too frequently to be attributed to neutron stars.
+  - E) Observations from the Compton Gamma-Ray Observatory have allowed us to trace gamma-ray bursts to pulsating variable stars in distant galaxies.
+$${\color{orange}\text{C: This is just a bit of history/lore. They don't come from specific things we can identify (yet).}}$$
 
-- **37)**
-  - A)
-  - B)
-  - C)
-  - D)
-  - E)
-$${\color{orange}\text{}}$$
+- **35) Why do astronomers consider gamma-ray bursts to be one of the greatest mysteries in astronomy?**
+  - A) because they are so rare
+  - B) because we know they come from pulsating variable stars but don't know how they are created
+  - C) because the current evidence suggests that they are the most powerful bursts of energy that ever occur anywhere in the universe, but we don't know how they are produced
+  - D) because current evidence suggests that they come from our own Milky Way, but we have no
+idea where in the Milky Way they occur
+  - E) because current evidence suggests that they come from massive black holes in the centers of
+distant galaxies, adding to the mystery of black holes themselves
+$${\color{orange}\text{C: They're not rare (as far as I know)--we just hadn't learned to detect them until recently. All of the other answers imply some level of knowledge about them, which takes away from the whole 'greatest mysteries' thing. We don't know anything, to my knowledge.}}$$
+
+- **36) An advanced civilization lives on a planet orbiting a close binary star system that consists of a $15M_{Sun}$ red giant and a 10MSun black hole. Assume that the two stars are quite close together,
+so that an accretion disk surrounds the black hole. The planet on which the civilization lives
+orbits the binary star at a distance of 10 AU. Sometime within the next million years or so, their planet is likely to be doomed because:**
+  - A) jets of material shot out of the accretion disk will shoot down their planet.
+  - B) their planet receives most of its energy from the red giant. However, this star will soon be completely devoured in the accretion disk and thus will no longer exist.
+  - C) the red giant will probably undergo a supernova explosion within the next million years.
+  - D) tidal forces from the black hole will rip the planet apart.
+  - E) the planet's orbit gradually will decay as it is sucked in by the black hole.
+$${\color{orange}\text{C: The red giant is 'feeding' the black hole its own material, so it will die eventually. As it is a red giant, instead of becoming a white dwarf, it will meet its end as a supernova.}}$$
+
+- **37) One foolhardy day, a daring major (let's call him Tom) in the space force decides to become the first of his race to cross the event horizon of the black hole. To add to the drama, he decides to go in wearing only a thin space suit, which offers no shielding against radiation, no cushioning against any forces, and so on. Which of the following is most likely to kill him first (or at least cause significant damage)? *(Hint: The key word here is first. Be sure to consider the distances from the black hole at which each of the noted effects is likely to become damaging.)***
+  - A) the crush of gravity at the singularity embedded within the black hole
+  - B) the tidal forces due to the black hole
+  - C) the strong acceleration as he descends towards the black hole
+  - D) the X rays from the accretion disk
+  - E) the sucking force from the black hole, which will cause his head to explode
+$${\color{orange}\text{The accretion disk stuff will hit Tom first; it's on the outside beyond the event horizon.}}$$
 
 - **38)**
   - A)
@@ -328,5 +355,31 @@ $${\color{orange}\text{}}$$
 $${\color{orange}\text{}}$$
 
 ### **19 Multiple-Choice Questions**
+
+- **1)**
+  - A)
+  - B)
+  - C)
+  - D)
+  - E)
+$${\color{orange}\text{}}$$
+
 ### **20 Multiple-Choice Questions**
+
+- **1)**
+  - A)
+  - B)
+  - C)
+  - D)
+  - E)
+$${\color{orange}\text{}}$$
+
 ### **21 Multiple-Choice Questions**
+
+- **1)**
+  - A)
+  - B)
+  - C)
+  - D)
+  - E)
+$${\color{orange}\text{}}$$
