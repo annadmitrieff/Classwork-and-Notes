@@ -4,13 +4,235 @@ Content from Ch. [S2](#s2-multiple-choice-questions), [S3](#s3-multiple-choice-q
 
 ### **S2 Multiple-Choice Questions**
 
-- **1)**
-  - A)
-  - B)
-  - C)
-  - D)
-  - E)
-$${\color{orange}\text{}}$$
+- **1) Each of the following lists two statements. Which two are the basic premises for the special theory of relativity?**
+  - A) The laws of nature are the same for everyone. The speed of light is the same for everyone.
+  - B) Everything is relative. You can never really tell who is moving.
+  - C) You can't go faster than the speed of light. Time is different for different people.
+  - D) The laws of nature are the same for everyone. Everything is relative.
+  - E) The speed of light is the same for everyone. You can't go faster than the speed of light.
+$${\color{magenta}\text{A: The tenets of special relativity is that the speed of light is constant in every reference frame (inertial or not) and that the laws of physics are invariant in all inertial reference frames.}}$$
+
+- **2) Which of the following statements best describes what is "relative" in the theory of relativity?**
+  - A) The theory says that everything is relative.
+  - B) The theory says that truth can never be established in any absolute sense.
+  - C) The theory says that measurements of motion make sense only when we state what they are measured relative to.
+  - D) The theory says that the speed of light is relative and depends on who is measuring it.
+  - E) The theory says that all scientific results must be considered within the context of the scientists' individual viewpoints.
+$${\color{magenta}\text{C: Not everything is relative (see: speed of light). B is a bit of a generalization--you just need to identify a reference frame. D just isn't true. E is true, I guess, but too specific for the general idea of this theory.}}$$
+
+- **3) Which of the following is *not* a prediction made by the theory of relativity?**
+  - A) No material object sent outward from Earth can reach or exceed the speed of light.
+  - B) Observers in different reference frames may disagree about whether two events in two different places occur simultaneously.
+  - C) Observers in different reference frames may disagree about the time and distance between two events.
+  - D) Observers in different reference frames may disagree about the basic laws of nature.
+  - E) $E = mc^{2}$
+$${\color{magenta}\text{D: 'Disagreeing about the basic laws of nature' (read: physics) should raise alarm bells in your head.}}$$
+
+- **4) According to the authors of the text, the theory of relativity**
+  - A) does not violate our common sense.
+  - B) violates common sense because it contradicts logic.
+  - C) violates common sense because it is counterintuitive.
+  - D) violates common sense because the theory contradicts itself in many cases.
+  - E) violates common sense because it is full of paradoxes.
+$${\color{magenta}\text{A: Dumb question. Why would this violate common sense?}}$$
+
+- **5) In relativity, two people share the same frame of reference only if:**
+  - A) they are not moving relative to each other.
+  - B) they are both located in the same place.
+  - C) they are both located in the same place and are traveling at the same speed.
+  - D) they are both located in the same place and are stationary.
+  - E) they agree on the laws of nature.
+$${\color{magenta}\text{A: Frame of reference describes your relative motion. Not much more to be said, here: location doesn't matter so much as how you (or your surroundings) are moving relative to your frame.}}$$
+
+- **6) You and Al are both floating freely in your spaceships. Suppose Al is moving away from you at 85 km/hr. You throw a ball in his direction at a speed of 75 km/hr. According to Al, which of the following is going on?**
+  - A) He agrees that he is moving at 85 km/hr and the ball is moving at 75 km/hr while you are standing still.
+  - B) He sees you moving away from him at 85 km/hr and the ball moving toward him at 75 km/hr.
+  - C) He sees you moving away from him at 85 km/hr and the ball moving toward him at 10 km/hr.
+  - D) He sees you moving away from him at 85 km/hr and the ball moving away from him at 10 km/hr.
+  - E) He sees you moving toward him at 85 km/hr and the ball moving toward him at 75 km/hr.
+$${\color{magenta}\text{D: Relative velocity tells us that Al is stationary with respect to his reference frame, but that we're moving away with a velocity of -85km/hr. The ball's relative velocity is 85 - 75km/hr = 10km/hr.}}$$
+
+- **7) Bob is coming toward you at a speed of 75 km/hr. You throw a baseball in his direction at 75 km/hr. What does he see the ball doing?**
+  - A) He sees the ball coming at him at 75 km/hr.
+  - B) He sees the ball going away from him at 75 km/hr.
+  - C) He sees the ball coming at him at 150 km/hr.
+  - D) He sees the ball going away from him at 150 km/hr.
+  - E) He sees the ball remaining stationary.
+$${\color{magenta}\text{C: }v_{ball, Bob} = v_{Bob, you} + v_{you, ball} = 75 + 75 = 150}$$
+
+- **8) Shawn is traveling away from you at a speed of 120 km/hr. He throws a baseball that, according to him, is going at 100 km/hr in your direction. What do you see the ball doing?**
+  - A) You see the ball traveling away from you at 120 km/hr.
+  - B) You see the ball traveling away from you at 100 km/hr.
+  - C) You see the ball traveling away from you at 220 km/hr.
+  - D) You see the ball traveling toward you at 20 km/hr.
+  - E) You see the ball traveling away from you at 20 km/hr.
+$${\color{magenta}\text{E: In general we can infer that the baseball will be moving with a velocity of 120 - 100km. To Shawn, we are moving away at 120km/hr. The baseball is moving away at 100km/hr. Therefore, to us, Shawn is moving away at 120km/hr and the baseball is moving away at 120-100km/hr.}}$$
+
+- **9) Sue is traveling toward you at 90 km/hr. She throws a baseball that, according to her, is going at 90 km/hr in the opposite direction. What do you see the ball doing?**
+  - A) You see the ball traveling away from you at 90 km/hr.
+  - B) You see the ball remaining stationary.
+  - C) You see the ball traveling away from you at 180 km/hr.
+  - D) You see the ball traveling toward you at 90 km/hr.
+  - E) You see the ball traveling toward you at 180 km/hr.
+$${\color{magenta}\text{B: The ball is moving at a velocity of -90 + 90 = 0 km/hr to you.}}$$
+
+- **10) Carol is going away from you at 75 km/hr, and Sam is going in the opposite direction away from you at 90 km/hr. According to Carol, how fast is Sam going?**
+  - A) Carol sees Sam going away from her at 75 km/hr.
+  - B) Carol sees Sam going away from her at 90 km/hr.
+  - C) Carol sees Sam going away from her at 15 km/hr.
+  - D) Carol sees Sam going away from her at 165 km/hr.
+  - E) Carol sees Sam coming toward her at 15 km/hr.
+$${\color{magenta}\text{D: 75 + 90 = 165km/hr.}}$$
+
+- **11) You are racing away from Earth in a super spaceship in which you can continually increase your speed. Which of the following best explains how people on Earth will perceive your speed?**
+  - A) They will know you are going very fast but will have no way of knowing whether you ever exceed the speed of light.
+  - B) You will see any beam of light from Earth coming toward you at the speed of light, which means it will catch you. Thus, the people on Earth must conclude that you are going slower than the speed of light.
+  - C) An imaginary spaceship can go as fast as it wants, so the folks on Earth soon will see you going faster than the speed of light.
+  - D) You may soon be racing away from Earth faster than the speed of light, but, if so, people on Earth will no longer be able to see you.
+  - E) Without more information, it is impossible to know how fast you would see a light beam from Earth coming toward you. If it happens that you are going fast enough so that the light can't catch you, then people on Earth would find you to be going faster than light.
+$${\color{magenta}\text{B: We can't exceed the speed of light. That rules out A, C, D, and E.}}$$
+
+- **12) If you see Al going to your left at exactly 0.99c and Bob going to your right at exactly 0.99c, Al will say that Bob is:**
+  - A) going away from her at 1.98c.
+  - B) going away from her at exactly 0.99c.
+  - C) going away from her at exactly c.
+  - D) going away from her at about 0.98c.
+  - E) going away from her faster than 0.99c, but slower than c.
+$${\color{magenta}\text{E: This situation is kinda weird. It's not like regular relative velocity: it's almost logarithmic with an asymptote at c.}}$$
+
+- **13) Consider a sphere at rest. Suppose the sphere is moving to the right at around 0.9c. What would the sphere's shape look like due to distortion?**
+  - A) A vertically-stretched ellipsoid.
+  - B) A horizontally-stretched ellipsoid.
+  - C) A smaller sphere.
+  - D) An even smaller sphere.
+  - E) A regular, unchanged sphere.
+$${\color{magenta}\text{A: The sphere gets squashed in its direction of motion as it moves to a speed close to c.}}$$
+
+- **14) A spaceship is headed toward Alpha Centauri at 0.999c. According to us, the distance to Alpha Centauri is about 4 light-years. How far away is Alpha Centauri according to the travelers in the ship?**
+  - A) also about 4 light-years
+  - B) very slightly more than 4 light-years
+  - C) very slightly less than 4 light-years
+  - D) quite a bit less than 4 light-years
+  - E) quite a bit more than 4 light-years
+$${\color{magenta}\text{D: When travelling at the speed of light, a unit of time/distance relative to our average velocities (zero, compared to the speed of light) will be quite a bit less.}}$$
+
+- **15) How would we view time (clocks) on the spaceship in the situation above as it goes by?**
+  - A) Time is the same for everyone.
+  - B) Their clocks are going at the same rate as ours.
+  - C) Their clocks are going exactly half as fast as ours.
+  - D) Their clocks are going faster than ours.
+  - E) Their clocks are going slower than ours.
+$${\color{magenta}\text{E: The science-y explanation for this tends to confuse me, so I like to think of Interstellar instead. Remember: Murph aged whereas Cooper didn't. Time moved slower for him.}}$$
+
+- **16) If we could measure the mass of the spaceship as it goes by, what would it be?**
+  - A) Its mass is infinite.
+  - B) Its mass is greater than its rest mass.
+  - C) Its mass is the same as it would be if it were not moving.
+  - D) Its mass is less than its rest mass.
+$${\color{magenta}\text{B: Increase in velocity (relative to rest/us) }\implies \text{increase in mass (relative to rest/us).}}$$
+
+- **17) How would the passengers on the spaceship view our clocks?**
+  - A) Time is the same for everyone.
+  - B) Our clocks are going fast.
+  - C) Our clocks are going slow.
+  - D) Our clocks are going at the same rate.
+  - E) They can't see our clocks, but we can see theirs. (saucy...)
+$${\color{magenta}\text{C: They see us aging slower (again, think Murph and Coop).}}$$
+
+- **18) Al is moving by you at a very high speed (close to the speed of light). You get out a clock and measure 10 seconds going by. If you also watch a clock in Al's ship, how much time will you see it record during your 10 seconds?**
+  - A) Al's clock will record less than 10 seconds.
+  - B) Al's clock will record more than 10 seconds.
+  - C) Al's clock will agree that 10 seconds go by.
+$${\color{magenta}\text{A: We observe time moving slower for him.}}$$
+
+- **19) Twin sisters, Gwen and Jackie, were both 20 years old in the year 2000. Jackie took off on a round trip to Vega, 25 light-years away. She traveled at an average speed very close to the speed of light—say, 0.9999c. According to Gwen back on Earth, about how long does it take Jackie to reach Vega?**
+  - A) About a month.
+  - B) About 10 years.
+  - C) About 25 years.
+  - D) About 100 years.
+  - E) About 1,000 years.
+$${\color{magenta}\text{C: 1 lightyear is the distance light travels in 1 year. If you're travelling at ~c, you'll functionally use the same unit.}}$$
+
+- **20) Which of the following best describes the situation according to Jackie?**
+  - A) She stays still, while Earth rushes away from her at 0.9999c and Vega rushes toward her at 0.9999c. Since Vega is 25 light-years away, she says it takes Vega about 25 years to reach her.
+  - B) She stays still, while Earth rushes away from her at 0.9999c and Vega rushes toward her at 0.9999c. She sees the distance from Earth to Vega shortened considerably from 25 light-years, and therefore it takes far less than 25 years for Vega to reach her.
+  - C) She says that the 25-light-year trip takes only a few months and therefore concludes that she is traveling faster than the speed of light.
+  - D) She's taking a trip that takes 25 years from Earth to Vega.
+$${\color{magenta}\text{B: We can rule out C and D because the idea of Earth moving away is correct. However, because she is moving at the speed of light and due to time dilation, without even knowing the science, we can infer that it won't take her (in her reference frame) the same amount of time for her trip in our reference frame.}}$$
+
+- **21) Which of the following correctly describes the situation when Jackie returns to Earth? (Ages in this problem refer to biological ages–that is, how much time has passed for each sister since she was born.)**
+  - A) It's the year 2050, and both twin sisters are 70 years old.
+  - B) It's the year 2050. Gwen (who stayed home) is 70 years old, but Jackie is only a little older than her age of 20 when she left.
+  - C) It's the year 2050. Gwen is 70 years old. Jackie is 19.
+  - D) It's the year 2100. Gwen and Jackie are both 120 years old.
+  - E) According to Gwen, Jackie returns to Earth in the year 2050, but according to Jackie, she returns in the year 2001.
+$${\color{magenta}\text{B: Gwen is 20 + 25 + 25 years old (25 years for each direction of Jackie's trip). Jackie is only a little older.}}$$
+
+- **22) Ben is racing a light beam in a 100-meter dash. Ben bursts out of the starting blocks at 99 percent of the speed of light (0.99c). At the same instant, a flashlight beam is turned on from the starting blocks. According to the spectators watching in the stands, what happens?**
+  - A) The light beam wins the race, but barely–it is going 1 percent of the speed of light faster than Ben.
+  - B) The light beam instantly finishes the race, before Ben even has a chance to start.
+  - C) The light beam wins the race by a large margin because it is going faster than Ben by the full speed of light.
+  - D) Ben beats the light beam to the finish line, becoming a hero.
+$${\color{magenta}\text{A: We can rule out D. To Ben, the light \textit{is} moving at c relative to him, but we care about the spectators here. Relative to them, Ben is moving c - 0.99c m/s slower than the light beam.}}$$
+
+- **23) Referring to the race above, what happens according to Ben?**
+  - A) The light beam gradually pulls ahead of him and wins the race because it is going 1 percent of the speed of light faster than him.
+  - B) The light beam instantly finishes the race, before Ben even has a chance to start.
+  - C) The light beam moves out ahead of him at the full speed of light, winning the race easily.
+  - D) Ben wins the race and becomes a hero.
+$${\color{magenta}\text{C: As discussed in the previous question, to Ben, light still moves at the speed of light.}}$$
+
+- **24) How does the explosion of a nuclear bomb provide evidence of the theory of relativity?**
+  - A) The bomb causes things in its vicinity to move at very high speeds, allowing scientists to measure effects of time dilation.
+  - B) The mass of the bomb when it explodes is much greater than its normal mass.
+  - C) The bomb shortens the lifetimes of all people who happen to be near it when it detonates.
+  - D) The bomb produces energy in accord with $E = mc^2$, which is part of the theory of relativity.
+$${\color{magenta}\text{D: A bit of a 'gotcha' question? A might work if there were enough force. B and C are just not true, I think? D is correct, but seems a bit obvious since that's a rule attached to anything involving energy and mass nonspecific to a bomb.}}$$
+
+- **25) The lifetime of a $\pi^+$ meson normally is 18 nanoseconds. In a large particle accelerator,
+scientists can create $\pi^+$ mesons moving at speeds very close to the speed of light. What do the
+scientists observe when they measure the lifetime of a $\pi^+$ meson that is created at very high
+speed?**
+  - A) The $\pi^+$ meson lasts 18 nanoseconds.
+  - B) The $\pi^+$ meson lasts much more than 18 nanoseconds.
+  - C) The $\pi^+$ meson lasts much less than 18 nanoseconds.
+  - D) The $\pi^+$ meson no longer decays and remains a stable particle.
+$${\color{magenta}\text{B: Time moves slower for objects moving closer to c. Thus, the mesons will age slower (to our POV).}}$$
+
+- **26) You take a trip to a star located 1,000 light-years away and return. You travel at an average
+speed of 0.99c. About how long will the trip take, according to you?* HINT: Recall the time dilation formula:***
+
+$$t' = ^{t}\sqrt{1 - (\dfrac{v}{c})^2} $$
+
+  - A) 2.8 years
+  - B) 10 years
+  - C) 28 years
+  - D) 280 years
+  - E) 2,000 years
+$${\color{magenta}\text{D: Given c = 1.0, v = 0.99c, distance = 1000 lightyears one way, the travel time in the stationary frame is }\dfrac{2 \cdot distance}{velocity}. \text{ We thus compute }t' = ^{t_{stationary}} \sqrt{1 - (0.99)^2} \approx 284}$$
+
+- **27) About how many years will pass on Earth while you are gone?**
+  - A) 2.8 years
+  - B) 10 years
+  - C) 28 years
+  - D) 2,000 years
+  - E) 280 years
+$${\color{magenta}\text{D: 1 lightyear is how far light travels in 1 year. To us, it will take the full 2,000 years for light to travel 2,000 lightyears.}}$$
+
+- **28) Which of the following is not predicted by Einstein's special theory of relativity**
+  - A) the constancy of the speed of light
+  - B) no material object can reach or exceed the speed of light
+  - C) time dilation
+  - D) the equivalence of mass and energy
+  - E) length contraction
+$${\color{magenta}\text{A: This is just lore/knowing the rules.}}$$
+
+- **29) The predictions of special relativity can sound implausible at first. What observational evidence do scientists have that the theory is correct?**
+  - A) Subatomic particles in accelerators exhibit effects of time dilation and mass increase at high speeds.
+  - B) Light is always observed to travel at the same speed.
+  - C) Time dialation can be observed in airplanes.
+  - D) All of the above.
+$${\color{magenta}\text{D: Think of the }\pi^+ \text{ mesons for A. B is generally true (one of the tenets). C is true (atomic clock experiment).}}$$
 
 ### **S3 Multiple-Choice Questions**
 
@@ -20,7 +242,7 @@ $${\color{orange}\text{}}$$
   - C)
   - D)
   - E)
-$${\color{orange}\text{}}$$
+$${\color{blue}\text{}}$$
 
 ### **18 Multiple-Choice Questions**
 
@@ -330,29 +552,29 @@ $${\color{orange}\text{C: The red giant is 'feeding' the black hole its own mate
   - E) the sucking force from the black hole, which will cause his head to explode
 $${\color{orange}\text{The accretion disk stuff will hit Tom first; it's on the outside beyond the event horizon.}}$$
 
-- **38)**
-  - A)
-  - B)
-  - C)
-  - D)
-  - E)
-$${\color{orange}\text{}}$$
+- **38) Through a bizarre (and scientifically unexplainable) fluctuation in the spacetime continuum, a copy of a book titled *Iguoonos: How We Evolved* appears on your desk. As you begin to read, you learn that the book describes the evolution of the people living in the star system described above (Q37). In the first chapter, you learn that these people evolved from organisms that lived 5 billion years ago. Which of the following statements should you expect to find as you continue to read this book?**
+  - A) As a result of traumatic experiences of their evolutionary ancestors, they dislike television.
+  - B) Their immediate ancestors were chimpanzees.
+  - C) They found that the presence of two stars in their system was critical to their evolution.
+  - D) They evolved on a different planet in a different star system and moved to their current location.
+  - E) They evolved from primitive wormlike creatures that had 13 legs, 4 eyes, and bald heads, thus explaining why such critters are now considered a spectacular delicacy.
+$${\color{orange}\text{D: Okay, so, A, B, and E are obviously not relevant. C doesn't really make sense.}}$$
 
-- **39)**
-  - A)
-  - B)
-  - C)
-  - D)
-  - E)
-$${\color{orange}\text{}}$$
+- **39) If you were to come back to our Solar System in 6 billion years, what might you expect to find?**
+  - A) a red giant star
+  - B) a white dwarf
+  - C) a rapidly spinning pulsar
+  - D) a black hole
+  - E) everything will be pretty much the same as it is now.
+$${\color{orange}\text{B: This makes the most sense as the sun is a main sequence star with a mass indicative of a white dwarf.}}$$
 
-- **40)**
-  - A)
-  - B)
-  - C)
-  - D)
-  - E)
-$${\color{orange}\text{}}$$
+- **40) Black holes, by definition, cannot be observed directly. What observational evidence do scientists have of their existence?**
+  - A) Theoretical models predict their existence.
+  - B) Gravitational interaction with other objects.
+  - C) Space is, overall, very black.
+  - D) We have sent spacecraft to nearby black holes.
+  - E) We have detected neutrinos from them.
+$${\color{orange}\text{B: Example--Sgr A* was identified by the unexplained orbits of stars around the centre of our galaxy. We also have photos of these guys!}}$$
 
 ### **19 Multiple-Choice Questions**
 
@@ -362,7 +584,7 @@ $${\color{orange}\text{}}$$
   - C)
   - D)
   - E)
-$${\color{orange}\text{}}$$
+$${\color{red}\text{}}$$
 
 ### **20 Multiple-Choice Questions**
 
@@ -372,7 +594,7 @@ $${\color{orange}\text{}}$$
   - C)
   - D)
   - E)
-$${\color{orange}\text{}}$$
+$${\color{yellow}\text{}}$$
 
 ### **21 Multiple-Choice Questions**
 
@@ -382,4 +604,4 @@ $${\color{orange}\text{}}$$
   - C)
   - D)
   - E)
-$${\color{orange}\text{}}$$
+$${\color{green}\text{}}$$
