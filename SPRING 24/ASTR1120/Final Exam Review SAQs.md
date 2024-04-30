@@ -76,30 +76,84 @@ Content from Ch. [S2](#s2-free-response-questions), [S3](#s3-free-response-quest
 - **5) What is an x-ray bursar? What causes the x-ray bursts?**
   - An x-ray bursar is a neutron star in a close binary system. The x-ray bursts are caused by helium fusion taking place on the neutron star's surface.
 
-- **6) **
-  - 
+- **6) What would happen if a small piece (say the size of a paper clip) of neutron star material struck Earth?**
+  - Even a small piece of neutron star material is denser than the Earth can handle. The piece of neutron star would tunnel to the centre of the Earth. It wouldn't stop there, though, because its momentum would cause it to plunge through to the other side back and forth and back and forth, oscillating until it reached an equilibrium position at the core.
 
-- **7) **
-  - 
+- **7) Suppose you find an X-ray binary that exhibits X-ray bursts. Is it possible that the system's X- ray binary consists of a red giant and a black hole? Why or why not?**
+  - No: a black hole has no surface. X-ray bursts occur on a surface, such as the surface of an x-ray bursar.
 
-- **8) **
-  - 
+- **8) Briefly describe what you would see if your friend plunged into a black hole.**
+  - As our friend approaches the event horizon, and eventually passes it, they would be spaghettified by the black hole's tidal forces. Their time would run slower and slower relative to us, and there will come a point where it seems as if their time stands still upon crossing the event horizon or Schwarzchild radius of the black hole. Eventually, he would disappear from our view, not because we'd be able to see him get sucked in, but because his light would be so redshifted that it would no longer be in the visible light spectrum.
 
-- **9) **
-  - 
+- **9) Why would Earth's orbit be unaffected were the Sun to suddenly become a black hole?**
+  - Earth's orbit would be unaffected if the Sun suddenly became a black hole because the Earth is outside the Sun's Schwarzschild radius. Newton's Universal Law of Gravitation would apply in this case, and the Earth would simply orbit the Sun/black hole instead of being sucked in.
 
-- **10) **
-  - 
+- **10) What is the evidence that gamma-ray bursts originate from beyond the Milky Way Galaxy?**
+  - The evidence that gamma-ray bursts originate froom beyond the Milky Way lies within their distribution. Unlike the distribution of other celestial phenomena, such as neutron stars, x-ray binaries, and so on, gamma ray bursts are distributed uniformly across the sky and at further distances (at the positions and redshifts of distant galaxies). 
 
 ### **19 Free-Response Questions**
-- **1) **
-  - 
+- **1) Suppose you discovered a star made purely of hydrogen and helium. How old do you think it would be? Explain.**
+  - A star made purely of hydrogen and helium would probably be from the first generation of stars that was born before heavier elements and metals were dispersed into the universe.
 
+- **2) Nebulae that scatter light are bluer than the stars that illuminate them. Earth's sky is bluer than the Sun. Is this a coincidence? Explain why or why not.**
+  - Blue light scatters more easily than red light. It's not a coincidence that the sky is bluer than the sun; the red light emitted by the Sun passes more easily through the atmosphere.
+
+- **3) The average speed of stars relative to the Sun in the solar neighborhood is about 20 km/s. Suppose you discover a star in the solar neighborhood that is moving relative to the Sun at a much higher speed, say, 200 km/s. What kind of orbit does this star probably have around the Milky Way? In what part of the galaxy does it spend most of its time? Explain.**
+  - This star is probably not orbiting along the plane/disk of the Milky Way like the Sun and other stars. This star is probably a halo star, with an orbit not confined to the galaxy's disk.
+
+- **4) Briefly describe the star-gas-star cycle.**
+  - A star forms from a cold, dense dust cloud. During its lifetime, it fuses hydrogen into helium and helium into carbon. If the star is more massive, it may also create heavier and heavier elements, up to iron (which cannot produce energy through nuclear fusion) and uranium during supernova events. When the star dies, either becoming a planetary nebula or a supernova, these elements are distributed into the interstellar medium. This medium eventually goes on to form cold, dense molecular clouds, which forms new stars. 
+
+- **5) Briefly explain why stars that formed early in the history of the galaxy contain a smaller proportion of heavy elements than stars that formed more recently.**
+  - Stars that formed early in the history of the galaxy formed from molecular clouds with a smaller (or nonexistent) proportion of heavy elements/metals in them, because those elements hadn't been formed through nuclear fusion as a part of the star-gas-star cycle yet.
+
+- **6) Explain why, in space, "no one can hear you scream."**
+  - Space is a vacuum, and sound doesn't travel in a vacuum. There are too few particles distributed throughout space to oscillate with the soundwave to carry that sound.
+
+- **7) What evidence suggests that we live inside a *hot local bubble?***
+  - X-ray telescopes reveal that we're surrounded by hot, x-ray emitting gas coming from all around us. Surrounding this hot gas lies a region of cooler gas that suggests multiple supernovae have detonated within our stellar neighborhood over the last several million years, implying that we and our stellar neighbors live inside a hot bubble. Our bubble is called the *Local Bubble!*
+
+- **8) What produces the striking red, blue, and black colors of ionization nebulae?**
+  - The red, blue, and black colors of ionization nebulae are produced by emission lines, reflected starlight, and dense gas clouds. The red color is produced by the single line transition of hydrogen in which an electron falls from an energy level of 3 to 2, the blue light is produced by scattered starlight, and the black regions are produced by dark, dense gas clouds that obscure light from stars behind them.
+
+- **9) Astronomers observe huge bubbles of hot gas, some over a thousand light-years across, in the Milky Way. What is their cause?**
+  - These massive hot gas bubbles form as a product of multiple supernovae occuring in a nearby vicinity. Stars form in clusters, so this isn't a particularly unusual phenomenon. Superbubbles form from the interstellar medium and expelled 'star stuff' being pushed into a bubble-like shape from cumulative supernovae.
+
+- **10) Why do spiral arms have a blue color?**
+  - Spiral arms of galaxies have a blue color because new star formation is concentrated in these regions of the galaxies. More collisions occur in these denser areas which, in turn, also leads to more star formation.
 
 ### **20 Free-Response Questions**
-- **1) **
-  - 
+- **1) Explain how we estimate that there are about 50-100 billion galaxies in the observable
+universe.**
+  - We can't count all of the galaxies in the extended universe, but we can take the same approach as counting all the blades of grass in a football field. By taking a snapshot with a telescope such as Hubble or Webb and counting the number of galaxies in that snapshot, then multiplying that number by the number of snapshots we would need to take to cover the whole sky, we can make an estimate of the number of galaxies in our vicinity.
 
+- **2) Summarize the links in the distance chain that allow us to estimate distances to the farthest reaches of the universe.**
+  - We can determine the distance to solar system objects through radar ranging. This gives an accurate distance to the Sun, enabling us to use parallax to measure distances to nearby stars.
+  - We can use the nearby Hyades star cluster, which we can evaluate the distance to using parallax, to plot a Hertzsprung-Russell diagram with the luminosities of their main sequence.
+  - We can fit further star clusters to this Hertzsprung-Russell diagram by main-sequence fitting. From this, we can evaluate distances to Cepheid variable stars.
+  - We can use Cepheid variable stars' periods to measure distances to other Cepheids, enabling us to use standard candles to identify phenomena in other galaxies.
+  - Once we've determined distances to other galaxies, we can use the luminosity of White-Dwarf supernovae to calibrate their average luminosity.
+  - We can then calibrate Hubble's law by determining the Hubble constant, which will enable us to determine a galaxy's distance from its redshift.
+
+- **3) List at least three qualities that would tend to make a type of astronomical object useful as a standard candle.**
+  - Fixed brightness or a periodic change in brightness that isn't irregular, relative commonness (nothing super rare), standard luminosity that can correlate with other phenomena.
+
+- **4) Explain why we observe distant galaxies to be moving away from us and therefore believe that the universe is expanding, but we don't see individual galaxies or clusters expanding.**
+  - Galaxy clusters stay together due to gravity. The pull of gravity slows the expansion rate of the universe. In particularly dense regions, gravity is able to overcome the expansion and inhibit the expansion of these objects. Where the average density is lower, gravity doesn't have as strong of an effect, and so the expansion continues between galaxy clusters.
+
+- **5) Briefly explain why we think white-dwarf supernovae are useful for measuring cosmic distances.**
+  - White dwarf supernovae are useful for measuring cosmic distances because they all occur when the mass of the white dwarf exceeds the Chandrasekhar Limit, $1.4M_{sun}$. This provides a standardized luminosity from which we can use the supernovae's apparent brightness to determine distance from the luminosity-distance formula.
+
+- **6) How does the age of the universe depend on Hubble's constant, and why?**
+  - The larger $H_{0}$ is, the younger the universe. This is because, for larger $H_{0}$, $\vec{v}$ is also larger by Hubble's Law, which means it took less time to reach its current size.
+
+- **7) Recall that Hubble's law is written $v = H_{0}d$, where v is the recession velocity of a galaxy located a distance d away from us, and $H_{0}$ is Hubble's constant. Suppose $H_{0} = 55$ km/s/Mpc. How fast would a galaxy located 500 megaparsecs distant be receding from us? Show all work clearly, and state your final answer with a complete sentence. Give the speed in units of kilometers per second and as a percentage of the speed of light.**
+  - Recall Hubble's Law: $\vec{v} = H_{0}d = 55 \dfrac{km/s}{Mpc} \cdot 500 Mpc = 27,500 km/s$
+  - Recall that the speed of light is 300,000km/s
+  - \therefore $27,500 = 300,000x \implies \vec{v} = 0.09c$
+
+- **8) Describe how scientists measure the distances to galaxies, starting with how they measure the distances of the nearest stars. Be sure to include enough detail so that someone who does not know the jargon of astronomy can still understand your explanation.**
+  - We use parallax for nearby distances and standard candles for farther distances.
 
 ### **21 Free-Response Questions**
 - **1) **
