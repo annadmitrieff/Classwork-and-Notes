@@ -156,5 +156,37 @@ universe.**
   - We use parallax for nearby distances and standard candles for farther distances.
 
 ### **21 Free-Response Questions**
-- **1) **
-  - 
+- **1) Give examples demonstrating the role of "nature" and "nurture" in galaxy evolution.**
+  - All galaxies form from a similar process, but the conditions of the protogalactic clouds they form from, as well as the interactions the galaxy has with other galaxies (e.g. collisions) may affect the formation of the galaxy. Differences in initial conditions of protogalactic clouds, such as their angular momentum, can result in a different galaxy formation. Low angular momentum might form a spheroidal or elliptical galaxy. High angular momentum might result the cloud collapsing into a disk and forming into a spiral galaxy. A collision between galaxies may result in an elliptical galaxy
+
+- **2) Briefly explain why starburst galaxies appear fairly ordinary when they are observed in visible light but extraordinary when they are observed in infrared light.**
+  - Starburst galaxies are galaxies that undergo exceptionally high rates of star formation, in comparison to the long-term average rate of star formation in the galaxy. They can occur in disk and irregular galaxies. A specific kind of starburst galaxy (and probably the kind this question is referring to) is the Luminous Infrared Galaxy (LIRG). These include Ultra-Luminous Infrared Galaxies (ULIRGs) and Hyperluminous Infrared Galaxies (HLIRGs). ULIRGs are extremely dusty. UV radiation produced by the star formation obscured by the dust is absorbed by the dust and re-radiated in the infrared spectrum, producing the extreme red colors of LIRGs.
+
+- **3) Explain why galaxy interactions are far more common than star-star interactions.**
+  - Galaxy interactions are far more common than star-star interactions because the density of galaxy clusters is far larger proportionally to the density of star clusters.
+
+- **4) Why do spiral galaxy mergers often trigger starbursts?**
+  - Spiral galaxy mergers/collisions often trigger starbursts because spiral galaxies, which are rich with dust, cause the dust clouds to migrate to a common point, triggering bursts of star formation (stars are born from these dense dust clouds). 
+
+- **5) How does a starburst end? What might happen to the galaxy afterwards?**
+  - Starbursts may end after all the available gas is used up. They may also end through the combined effect of multiple supernovae forming a superbubble, blowing all the gas out of the galaxy. The galaxy may then age, as old stars will still be alive, dying off eventually with no new star formation occurring until enough gas accumulates again.
+
+- **6) Give several observations supporting the idea that the high redshifts of quasars really do imply great distances.**
+  - We see quasars with high redshifts, but none with blueshifts.
+  - Images show quasars are embedded in distant galaxies.
+  - Some quasars have been observed to be members of distant galaxy clusters.
+  - We see absorption lines produced by intergalactic gas between the quasar and us.
+  - We have observed a progression of other active galaxies, with those farther away being more active and closer ones being less active.
+
+- **7) How are the jets produced by radio galaxies similar to those from protostars?**
+  - Jets in radio galaxies and in protostars form from the same/similar physical mechanisms, as means for these systems to shed their angular momentum. Jets produced by radio galaxies and protostars also coexist with the disks surrounding protostars and black holes in these respective systems.
+
+- **8) How do jets produced by radio galaxies differ from those of protostars?**
+  - Jets in radio galaxies are different from jets in protostars in their size and energy output. Additionally, the centers of radio galaxies are supermassive black holes, while protostellar disks orbit actual protostars with surfaces.
+
+- **9) Briefly explain how we think quasars produce so much energy.**
+  - We think quasars produce so much energy because this energy is theorized to be produced in the accretion disk around a supermassive black hole. As the material in the accretion disk approaches the event horizon, it accelerates and accelerates, approaching (but never breaching) the speed of light. 
+
+- **10) What information about protogalactic gas clouds is contained in quasar absorption lines?**
+  - Quasar absorption lines show the presence of clouds between our point of view and the quasar. These absorption lines indicate the presence of hydrogen absorption in nearer, older galaxies as well as heavier elements in the distant younger objects.
+
