@@ -1,2 +1,2 @@
 # Classwork-and-Notes
-Notes &amp; assignments for my classes.
+Notes &amp; assignments for classes & otherwise.
