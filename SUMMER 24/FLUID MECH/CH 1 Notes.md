@@ -110,7 +110,7 @@ $\color{skyblue} \text{D, B are empirical constants, T is absolute temperature}$
 
   $\color{skyblue} \text{V = mean velocity, y = 1/2 of total pipe height, h = specific y relative to midpoint of height}$
 
-![cross section](https://github.com/annadmitrieff/Classwork-and-Notes/blob/main/SUMMER%2024/FLUID%20MECH/MISC/cross%20section.png)
+![cross section](https://github.com/annadmitrieff/Classwork-and-Notes/blob/main/SUMMER%2024/FLUID%20MECH/MISC/pipecrosssection.png)
 
  We describe the kinematic velocity as follows:
 
