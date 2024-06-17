@@ -1,4 +1,5 @@
-## Applying MCFOST to PHANTOM
+## Applying MCFOST to a PHANTOM Simulation of a Black Hole Accretion Disc
+### Installation
 I used the [binary installation procedure](https://mcfost.readthedocs.io/en/stable/installation.html) to install MCFOST:
 
     wget https://github.com/cpinte/mcfost/releases/latest/download/mcfost_macOS-X64.tar.gz
@@ -7,6 +8,7 @@ I used the [binary installation procedure](https://mcfost.readthedocs.io/en/stab
 
     mcfost -get_para -rt
 
+## Post-Processing with MCFOST
 Running:
     
     $./mcfost disc.para -phantom ~/runs/mydisc2/disc_00002
