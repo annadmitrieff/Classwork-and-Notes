@@ -39,3 +39,14 @@ I haven't come across this issue with other simulations I've run (e.g. the galax
     ---> DELETING temporary dump file disc_00000.tmp <--
 
   Without proceeding further. I'm unsure what to do here and am currently unable to apply MCFOST to the simulation as I need dump files from further timesteps.
+
+    $top
+    PID    COMMAND      %CPU  TIME     #TH   #WQ  #PORT MEM    PURG   CMPRS  PGRP  PPID  STATE
+    25345  phantom      605.1 44:44:22 8/8   0    21    377M   0B     297M   25345 23818 running
+    
+    $ps auwx | grep "phantom"
+    USER              PID  %CPU %MEM      VSZ    RSS  TT   STAT STARTED      TIME COMMAND
+    anniem           25345 643.8  1.0 413855184  81808 s001  R+    9:27PM 2653:22.61 ./phantom disc.in
+    anniem           31859   0.0  0.0 408645776   1776 s002  S+   10:43AM   0:00.01 grep phantom
+
+(PHANTOM appears to be running, and has been for a while--I ran `./phantom disc.in` last night and left it running overnight hoping the simulation would progress, though it doesn't seem to have gotten any further).
