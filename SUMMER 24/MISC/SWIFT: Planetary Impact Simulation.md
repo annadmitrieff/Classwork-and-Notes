@@ -17,11 +17,11 @@ Downloading SWIFT:
 
 Configuring the build as per MacOS suggestions:
 
-    ./configure --disable-vec --enable-compiler-warnings --disable-doxygen-doc
+    $./configure --disable-vec --enable-compiler-warnings --disable-doxygen-doc
 
 Building SWIFT:
 
-    make
+    $make
 
 During configuration, I came across the error: "`configure: error: Could not find a working HDF5 library`". To amend this, I set my environment variables in my `~/.zshrc` file:
     
@@ -40,7 +40,7 @@ Rebuilding SWIFT:
 
 Navigating:
 
-    cd examples/Planetary/EarthImpact
+    $cd examples/Planetary/EarthImpact
 
 Running the simulation:
 
@@ -49,7 +49,7 @@ Running the simulation:
 
 Plotting the output:
 
-    python3 plot_solution.py 
+    $python3 plot_solution.py 
     # This produced a series of .pngs which I compiled into an .mp4 using ffmpeg.
 
 Plotting the output with ffmpeg:
