@@ -32,7 +32,7 @@ Lada & Wilking (1984) were the first to coin infrared-based classification by de
 
 $$\alpha_{IR} = \dfrac{d \log \nu F_{\nu}}{d \log \nu} = \dfrac{d \log \lambda F_{\lambda}}{d \log \lambda}$$
 - $\lambda \text{= wavelength}$
-- $F_{\lambda} \text = flux density$
+- $F_{\lambda} \text{ = flux density}$
 
 The $\alpha$ is calculated in the wavelength interval of 2.2-20$\mu$m (the near- and mid-infrared region).
 - Andre et al. (1993) discovered a class 0 of objects with submillimeter emissions, but very faint at $\lambda < 10 \mu m$.
