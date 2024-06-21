@@ -87,7 +87,7 @@ Disc masses do not appear to increase with time during core collapse, implying a
 
 Disc instability is likely responsible for the rapid transport of material in the early stages.
 - Laughlin & Bodenheimer (1994) proposed that early-stage discs are gravitationally unstable due to a high mass fraction in the disc relative to the protostar.
-- Instabilities lead to sporadic bursts of high accretion (Zhu et al. 2009), preventing the disc mass from growing faster than the star (vorobyov & Basu 2010).
+- Instabilities lead to sporadic bursts of high accretion (Zhu et al. 2009), preventing the disc mass from growing faster than the star (Vorobyov & Basu 2010).
 
 Many protostars experience short-lived bursts of high accretion, known as FU Orionis events (Herbig 1977).
 - Hartmann & Kenyon (1996) estimated that a typical low-mass star undergoes about 10 such outbursts during its formation.
@@ -104,6 +104,21 @@ Overall, more secure identifications of embedded discs require spectral line obs
 - The emission from the core and any protostellar outflow still prsents significant confusion, although this is mitigated by observing species such as HCN and HCO $^{+}$ that only emit substantially in gas that is warmer and denser than the outer parts of the envelope.
 
 ## 4. Properties of Protoplanetary Disks
+### 4.1: Mass
+Disc masses are best measured from (sub-)millimeter observations of thermal continuum emission from dust. Substantial and uncertain corrections are required for the grain size distribution and gas-to-dust ratio.
+- Assuming an ISM gas-to-dust ratio of 100 and ignoring the mass in bodies larger than 1mm, the median mass of protoplanetary discs around Class II YSOs with spectral types GKM is 5 Jupiter Masses.
+- From brown dwarfs to B stars, disc masses scale with the stellar mass. The median ratio is about 1% but there is a large dispersion, $\pm$ 0.5 dex.
+
+### 4.2: Radius
+### 4.3: Structure
+Protoplanetary discs have power law surface density profiles with an exponential taper that produce a soft edge anywhere from 20 to 200 AU from the star. The power law index is approximately -1 but is extrapolated and highly uncertain within the central ~ 20 AU.
+- Surface densities are generally below the threshold for gravitational instability and velocity profiles are keplerian. 
+
+### 4.4: Composition
+Mid-infrared through milimeter spectroscopy reveals a warm molecular layer with PDR-like chemistry that is strongly dependent on the stellar luminosity and a cold midplane depleted of molecules.
+
+### 4.5: Dependence on Stellar Mass
+
 ## 5. Disk Lifetimes
 ## 6. Disk Evolution
 ## 7. Transition Disks
