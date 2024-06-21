@@ -96,12 +96,12 @@ Eisner et al. (2005) found that envelope infall rates are much higher than disc 
 - Class I YSOs are generally about an order of magnitude less luminous than expected for steady gravitational energy release (Kenyon et al. 1990).
 
 Evans et al. (2009) concluded that a star gains half of its final mass in only about 7% of the combined class 0 and I lifetime (~0.5Myr).
-- This rapid mass gain can be explained by models of epsodic mass accretion from self-gravitating discs (Dunham et al. 2010).
+- This rapid mass gain can be explained by models of episodic mass accretion from self-gravitating discs (Dunham et al. 2010).
 
 The low average luminosity of YSOs and the accretion bursts of FU Orionis objects suggest that young discs are gravitationally unstable.
 
 Overall, more secure identifications of embedded discs require spectral line observations showing rotation.
-- The emission from the core and any protostellar outflow still prsents significant confusion, although this is mitigated by observing species such as HCN and HCO $^{+}$ that only emit substantially in gas that is warmer and denser than the outer parts of the envelope.
+- The emission from the core and any protostellar outflow still presents significant confusion, although this is mitigated by observing species such as HCN and HCO $^{+}$ that only emit substantially in gas that is warmer and denser than the outer parts of the envelope.
 
 ## 4. Properties of Protoplanetary Disks
 ### 4.1: Mass
