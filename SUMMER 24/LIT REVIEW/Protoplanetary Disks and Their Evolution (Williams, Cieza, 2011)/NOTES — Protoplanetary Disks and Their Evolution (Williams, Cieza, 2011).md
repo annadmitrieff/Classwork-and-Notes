@@ -22,6 +22,8 @@ Sub-milimeter and infrared telescopes enabled statistical studies of disc occurr
 - Sub-Millimeter Array (SMA) has enabled the expansion of interferometry to longer baselines and shorter wavelengths, enabling us to map fainter structures in greater detail.
 - Herschel Space Observatory (Herschel) and the Atacama Large Milimeter/Submilimeter Array (ALMA) are the next steps in protoplanetary disc observations.
 
+***
+
 ## 2. Classification of Young Stellar Objects
 Recall that star and planet formation begins with the collapse of a molecular core, where the mass originally resides, before later being processed through an accretion disc inward onto the protostar and outward through an outflow. 
 - The core is dispersed and the remaining mass is concentrated in the star.
@@ -53,6 +55,8 @@ A parallel accretion-based classification was additionally defined for the optic
 - **Class I** YSOs are deeply embedded in their envelopes still, with central protostars beginning to emerge and become more prominent. They exhibit strong infrared emission from the surrounding material.
 - YSOs graduate to **Class II** stars when the protostellar photosphere first bceomes visible after the surrounding envelope has mostly dissipated, leaving a prominent protoplanetary disc around the young star. These YSOs show less infrared emission than earlier stages, but still more than later stages.
 - **Class III**s are the most evolved YSOs and resemble young main-sequence stars. They have mostly dissipated circumstellar discs and lower infrared emissions similar to that of a normal star, with little to no exceess infrared emission.
+
+***
 
 ## 3. Disk Formation
 Circumstellar discs form almost immediately after a molecular core collapse. Their existence can be inferred through both SED modeling and interferometry.
@@ -103,6 +107,8 @@ The low average luminosity of YSOs and the accretion bursts of FU Orionis object
 Overall, more secure identifications of embedded discs require spectral line observations showing rotation.
 - The emission from the core and any protostellar outflow still presents significant confusion, although this is mitigated by observing species such as HCN and HCO $^{+}$ that only emit substantially in gas that is warmer and denser than the outer parts of the envelope.
 
+***
+
 ## 4. Properties of Protoplanetary Disks
 ### 4.1: Mass
 Disc masses are best measured from (sub-)millimeter observations of thermal continuum emission from dust. Substantial and uncertain corrections are required for the grain size distribution and gas-to-dust ratio.
@@ -119,7 +125,18 @@ Mid-infrared through milimeter spectroscopy reveals a warm molecular layer with 
 
 ### 4.5: Dependence on Stellar Mass
 
+***
+
 ## 5. Disk Lifetimes
+
+***
+
 ## 6. Disk Evolution
+
+***
+
 ## 7. Transition Disks
+
+***
+
 ## 8. Summary Points
