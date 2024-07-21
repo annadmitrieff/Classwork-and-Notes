@@ -22,18 +22,6 @@ face_photos = load_images('/Users/anniem/HCABlackHoles/ProgramTestData/Faces')
 
 all_photos = car_photos + face_photos
 
-'''
-# Feature Extraction
-def extract_features(images, size=(64, 64)):
-    features = []
-    for img in images:
-        resized_img = cv2.resize(img, size).flatten()
-        features.append(resized_img)
-    return np.array(features)
-
-features = extract_features(all_photos)
-'''
-
 # Feature Extraction #? NEW ADDITION--DIFFERENT METHOD
 def extract_features(images, size=(64, 64)):
     features = []
