@@ -78,10 +78,15 @@ The components of an HCA program for comparative analysis of accretion discs sho
     - Evaluate the quality of the clusters by using metrics such as silhouette score, Davies-Bouldin index, or visual inspection to validate the clustering results.
 
 ## Vocabulary
+
 Feature Vectors
+
 Distance Metrics
   - *different kinds of distance metrics*
+
 Linkage Method
   - *different linkage criterion*
+
 Silhouette Score
+
 Davies-Bouldin Intex
