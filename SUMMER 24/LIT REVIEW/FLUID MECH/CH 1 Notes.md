@@ -47,7 +47,7 @@ ${\color{skyblue} \rho = \text{density} = \dfrac{\text{abs. pressure}}{\text{gas
 
 - **viscosity ($\mu$):** describes the 'fluidity' of a fluid.
 
-![viscosity](https://github.com/annadmitrieff/Classwork-and-Notes/blob/main/SUMMER%2024/FLUID%20MECH/MISC/viscosity.png)
+<img width="391" alt="5" src="https://github.com/user-attachments/assets/a886f21a-0e73-4073-82ca-7310f0a4a631">
 
 $\mathcal{U}$ = continuous velocity of upper plate
 
@@ -110,7 +110,7 @@ $\color{skyblue} \text{D, B are empirical constants, T is absolute temperature}$
 
   $\color{skyblue} \text{V = mean velocity, y = 1/2 of total pipe height, h = specific y relative to midpoint of height}$
 
-![cross section](https://github.com/annadmitrieff/Classwork-and-Notes/blob/main/SUMMER%2024/FLUID%20MECH/MISC/pipecrosssection.png)
+<img width="242" alt="3" src="https://github.com/user-attachments/assets/d999df69-fe4d-441c-b331-44c1d9392e48">
 
  We describe the kinematic velocity as follows:
 
@@ -169,14 +169,15 @@ Note that in both cases, the bulk modulus varies directly with pressure.
 - *boiling* takes place when the absolute pressure is equal to the vapor pressure.
 - *cavitation* describes the formation and subsequent collapse of vapor bubbles in a flowing fluid.
 
-![vapor pressure](https://github.com/annadmitrieff/Classwork-and-Notes/blob/main/SUMMER%2024/FLUID%20MECH/MISC/Screen%20Shot%202024-05-03%20at%2011.30.45%20AM.png)
+<img width="158" alt="1" src="https://github.com/user-attachments/assets/e7e8a618-71e3-47cb-98f8-f82595357efd">
 
 **Surface Tension:**
 - intensity of the molecular attraction per unit length along any line in the surface.
 - designated by $\sigma$.
 - depends on temperature and the other fluid it is in contact with at the interface.
 
-![surface tension](https://github.com/annadmitrieff/Classwork-and-Notes/blob/main/SUMMER%2024/FLUID%20MECH/MISC/surface%20tension.png)
+<img width="284" alt="4" src="https://github.com/user-attachments/assets/c02335ad-42cc-4cb9-9a68-f1da63b46c5a">
+
 *figure: pressure inside a drop of fluid*
 
 $\color{skyblue} \text{Force Developed Around the Edge Due to Surface Tension:}$
@@ -205,4 +206,6 @@ $\color{skyblue} \therefore \text{capillary size in a tube} = h = \dfrac{2 \sigm
 
 - note that the angle of contact $\theta$ is both a function of the liquid and the surface.
 
-![capillary action](https://github.com/annadmitrieff/Classwork-and-Notes/blob/main/SUMMER%2024/FLUID%20MECH/MISC/capillary%20action.png)
+<img width="600" alt="2" src="https://github.com/user-attachments/assets/bbbacc89-c4b8-4b32-82da-d884433357f7">
+
+
