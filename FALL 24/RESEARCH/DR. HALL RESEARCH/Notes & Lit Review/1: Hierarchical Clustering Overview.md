@@ -79,14 +79,47 @@ The components of an HCA program for comparative analysis of accretion discs sho
 
 ## Vocabulary
 
-Feature Vectors
+**Feature Vectors**
+- A feature vector is a list of numerical values that represent an object's characteristics. In the context of machine learning and data analysis, a feature vector encapsulates the attributes of a data point in a structured format that can be used for training models or performing analysis.
+- Examples:
+    - In image processing, a feature vector might contain pixel intensity values, color histograms, or edge detection results.
+    - In Natural Language Processing (NLP), a feature vector might represent a text document through term frequency-inverse document frequency (TF-IDF) values, word embeddings, or other textual features.
+    - For sensor data, a feature vector might include readings from different sensors at a given time point.
+      
+**Distance Metrics**
+- Distance metrics are mathematical measures used to quantify the similarity or dissimilarity between two data points in a feature space. They are essential in clustering, classification, and other machine learning algorithms.
+- Examples:
+    - Euclidean Distance is the straight-line distance between two points in Euclidean space, useful for calculating the distances between two points in a 2D plane.
+    - $$\sqrt{\Sigma_{i = 1} ^{n} (x_{i} - y_{i})^2}$$
 
-Distance Metrics
-  - *different kinds of distance metrics*
+    - Manhattan Distance is the sum of the absolute differences of their coordinates, useful in grid-based pathfinding algorithms like the A* algorithm.
+    - $$\Sigma_{i = 1}^{n} |x_{i} - y_{i}|$$
+    
+    - Cosine Distance measures the cosine of the angle between two vectors, commonly used in text analysis to measure document similarity.
+    - $$1 - \dfrac{\Sigma_{i = 1}^{n} x_{i}y_{i}}{\sqrt{\Sigma_{i = 1}^{n} x_{i}^{2} \sqrt{\Sigma_{i = 1}^{n} y_{i}^{2}}}}$$
+ 
+    - Minkowski Distance is a generalized distance metric that includes both Euclidean and Manhattan distances as special cases.
+    - $$(\Sigma_{i = 1}^{n}|x_{i} - y_{i}|^p)^{\dfrac{1}{p}}$$
 
-Linkage Method
-  - *different linkage criterion*
+**Linkage Methods**
+- Linkage methods are criteria used in hierarchical clustering to determine the distance between sets of observations as clusters are formed.
+- Examples:
+    - Single Linkage, also known as 'nearest neighbor' clustering, is the minimum distance between elements of two clusters.
+    - Complete Linkage, also known as 'farthest neighbor' clustering, is the maximum distance between elements of two clusters.
+    - Average Linkage is the average distance between elements of two clusters.
+    - Ward's Method minimizes the total within-cluster variance, and often produces more compact clusters.
 
-Silhouette Score
+**Silhouette Score**
+- The silhouette score measures how similar an object is to its own cluster (cohesion) compared to other clusters (separation). It ranges from -1 to 1, where a high value indicates that the object is well matched to its own cluster and poorly matched to neighboring clusters.
+- $$s(i) = \dfrac{b(i)-a(i)}{max(a(i),b(i))}$$
+    - $a(i)$ is the average distance between the $i$-th point and all other points in the same cluster.
+    - $b(i) is the average distance between the $i$-th point and all points in the nearest cluster.
+    - A silhouette score close to 1 indicates that data points are well-clustered, while a score close to -1 indicates that data points might have been assigned to the wrong cluster. 
 
-Davies-Bouldin Intex
+**Davies-Bouldin Index**
+- The Davies-Bouldin Index (DBI) is an internal evaluation metric for clustering algorithms' quality. It is defined as the average similarity ratio of each cluster with its most similar cluster, where a lower value indicates better clustering.
+- Lower DBI values indicate that clusters are well-separated and internally compact. It is often used to compare the performance of different clustering algorithms or the same algorithm with different parameters.
+- $$DB = \dfrac{1}{k} \sum_{i = 1}^{k} max_{j \neq i} (\dfrac{s_i + s_j}{d_{ij}})$$
+    - $s_i$ is the average distance between each point in cluster $i$ and the centroid of cluster $i$.
+    - $d_{ij}$ is the distance between the centroids of clusters $i$ and $j$.
+    - $k$ is the number of clusters.
