@@ -1,6 +1,6 @@
 ## Workflow Breakdown
 
-This code needs to be modified to intake data received from WEBB/Chandra & PHANTOM.
+[This code](https://github.com/annadmitrieff/Classwork-and-Notes/tree/main/FALL%2024/RESEARCH/DR.%20HALL%20RESEARCH/Code/SampleProgram) is just an example of applying HCA to a very simplistic dataset. Future work enlists compatibility with data received from WEBB/Chandra & PHANTOM.
 
 I'm still not certain what form it may be in (image data, FITS files, 3D data cubes, ASN, CSV, Pipeline Data Products) or what additional tools may be beneficial for analysis (e.g. SAOImageDS9 for FITS files), CIAO, or the JWST Calibration Pipeline.
 
@@ -74,6 +74,17 @@ def load_images(folder):
             images.append(img)
     return images
 ```
+This function bach loads all image files from a directory into a list, making for easy processing of multiple images at once in subsequent steps.
+
+- `def load_images(folder):` defines a function to load images from a specific folder.
+- `images = []` initializes an empty list to store the loaded images.
+- `for filename in os.listdir(folder):` loops through each file in the specified folder.
+- `img = cv2.imread(os.path.join(folder, filename), cv2.IMREAD_ANYDEPTH)` reads each file as an image:
+     - `os.path.join(folder, filename):` constructs the full path to the file by joining the folder path and the filename.
+     - `cv2.IMREAD_ANYDEPTH` is a flag which allows the function to read images with any bit depth (e.g. 8-bit, 16-bit).
+- `if img is not None:` ensures image validity by ensuring that the image was successfully loaded. If `cv2.imread` fails to read the image (e.g. if the file is not an image), it returns `None`.
+- `images.append(img)` adds the valid image to the list.
+- `return images` returns the list of loaded images. 
 
 ```
 # Loading Actual & Simulated Photos:
@@ -82,9 +93,13 @@ face_photos = load_images('/Users/anniem/HCABlackHoles/ProgramTestData/Faces')
 
 all_photos = car_photos + face_photos
 ```
+This subsection prepares our dataset by loading images from specified directories and combining them into a single list.
+- The variable `car_photos` is defined by calling the `load_images` function, passing the directory path for the photos of cars as the argument; the returned list of images is assigned to the variable `car_photos`.
+- The variable `face_photos` is defined by calling the `load_images` function, passing the directory path for the photos of faces as the argument; the returned list of images is assigned to the variable `face_photos`.
+- `all_photos` is defined by the concatenation of two lists, `car_photos` and `face_photos`.
 
 ```
-# Feature Extraction #? NEW ADDITION--DIFFERENT METHOD
+# Feature Extraction 
 def extract_features(images, size=(64, 64)):
     features = []
     win_size = size
@@ -113,16 +128,57 @@ def extract_features(images, size=(64, 64)):
 
 features = extract_features(all_photos)
 ```
+This function extracts meaningful features from images which can later be used to create clusters.
+- `extract_features(images, size(64, 64))` defines a function which takes two arguments, image and size, that extracts features from a list of images, resizing them to a specified size.
+- `features = []` initializes an empty list that will be used to store the extracted features from each image.
+- `win_size`, `block_size`, `block_stride`, `cell_size`, and `nbins` are Histogram of Oriented Gradients (HOG) descriptors--these lines set various HOG descriptor parameters:
+     - `win_size` is the size of the window (region of the image) to be processed at once.
+     - `block_size` is the size of each block (a group of cells) within the window.
+     - `block_stride` is the distance between adjacent blocks.
+     - `cell_size` is the size of each cell within a block.
+     - `nbins` is the number of bins for the histogram of gradient orientations.
+- `hog` initializes the HOG descriptor object, which will be used to compute the HOG features for each image, with the specified parameters.
+- `for idx, img in enumerate(images):` initiates a loop that iterates over each image in the `images` list.
+     - `idx` is the index of the image.
+     - `img` is the image itself.
+- `resized_img` calls the `cv2.resize` function to resize the current image (`img`) to the specified `win_size`--in this case, the default size, `(64, 64)`.
+- `hog_features` calls the `hog.compute` function to compute the HOG features for the resized image using the HOG descriptor object, extracting HOG features from the image which are used for capturing edge and gradient information.
+     - The `flatten()` method is called to convert the HOG features into a 1D array.  
+- `features.append(hog_features)` appends the extracted HOG features to `features`, collecting the features for each image into a single list.
+- The conditional `if idx < 5:` prints the shape and a sample of the HOG features for the first few images (up to 5), verifying that the feature extraction is working correctly and that HOG features are being computed as expected.
+- `return np.array(features)` converts the list of HOG features, `features`, to a NumPy array and returns it.
+- `features = extract_features(all_photos)` calls the `extract_features` function with `all_photos` as the argument and assigns the returned NumPy array to the `features` variable for further processing.
 
 ```
 # Computing Distance Matrix (Euclidean Distance)
 distance_matrix = pdist(features, metric='euclidean')
 ```
+This subsection computes the pairwise distances between the feature vectors of images as a measure of dissimilarity or distance between data points.
+- The line `distance_matrix` calls the `pdist` function from the `scipy.spatial.distance` module.
+- `pdist(features, metric='euclidean')` computes the pairwise distances between observations in the `features` array using the Euclidean distance metric.
+     - Recall that `features` defines the 2D NumPy array where each row represents the feature vector of an image.
+     - `metric='euclidean` specifies that the Euclidean distance should be used to calculate the distances.  
+- `pdist` returns a condensed distance matrix, which is a 1D array containing the upper triangular distances of the 2D distance matrix (excluding the diagonal), which is assigned to the variable `distance_matrix`.
+     - A condensed distance matrix has several advantages in terms of efficiency and storage.
+     - Since distance matrices are symmetric and the diagonal elements are zero, storing only the upper triangular part avoids redundancy and saves memory, requiring $\dfrac{n(n-1)}{2}$ elements for the $n$ elements in full distance matrices.
+     - Some algorithms and functions, such as those in SciPy, are optimized to work directly with condensed distance matrices. 
 
 ```
 # Hierarchical Clustering (Ward's Linkage Method)
 Z = linkage(distance_matrix, method='ward')
 ```
+This subsection performs hierarchical clustering to create a cluster tree that can be used to visualize and analyze the hierarchical relationships between our sample data points.
+- `Z = linkage(distance_matrix, method='ward')` calls the `linkage` function from the `scipy.cluster.hierarchy` module to perform hierarchical clustering on the distance matrix using Ward's linkage method.
+     - Recall that `distance_matrix` is the precomputed condensed distance matrix from above containing pairwise distances between data points, crucial in providing the distance information necessary for clustering.
+     - `method='ward'` defines the linkage method as Ward's Linkage Method, a linkage criterion that minimizes variance within clusters.
+          - The purpose is to create clusters that minimize the sum of squared distances within all clusters.
+          - This method tends to produce clusters of relatively equal size and compactness.  
+- `Z` is defined as a linkage matrix that encodes the hierarchical clustering, containing information about the clustering hierarchy and the distances between clusters at each step.
+     - The linkage matrix `Z` has shape `(n-1, 4)`, with `n` being the number of original observations.
+          - Column 1 is the index of the first cluster being merged.
+          - Column 2 is the index of the second cluster being merged.
+          - Column 3 is the distance between the merged clusters.
+          - Column 4 is the number of original observations in the newly formed cluster. 
 
 ```
 # Dendogram
