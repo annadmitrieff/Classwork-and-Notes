@@ -17,8 +17,8 @@ def load_images(folder):
     return images
 
 # Loading Actual & Simulated Photos:
-car_photos = load_images('/Users/anniem/HCABlackHoles/ProgramTestData/Cars') 
-face_photos = load_images('/Users/anniem/HCABlackHoles/ProgramTestData/Faces') 
+car_photos = load_images('/Users/.../ProgramTestData/Cars') # Path to Car Dataset
+face_photos = load_images('/Users/.../ProgramTestData/Faces') # Path to Face Dataset
 
 all_photos = car_photos + face_photos
 
