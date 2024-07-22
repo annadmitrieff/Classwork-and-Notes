@@ -88,8 +88,8 @@ This function bach loads all image files from a directory into a list, making fo
 
 ```
 # Loading Actual & Simulated Photos:
-car_photos = load_images('/Users/anniem/HCABlackHoles/ProgramTestData/Cars') 
-face_photos = load_images('/Users/anniem/HCABlackHoles/ProgramTestData/Faces') 
+car_photos = load_images('/Users/.../ProgramTestData/Cars') # Path to Car Dataset
+face_photos = load_images('/Users/.../ProgramTestData/Faces') # Path to Face Dataset
 
 all_photos = car_photos + face_photos
 ```
