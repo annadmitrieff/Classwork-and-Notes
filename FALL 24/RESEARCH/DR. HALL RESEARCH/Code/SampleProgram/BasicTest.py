@@ -22,7 +22,7 @@ face_photos = load_images('/Users/anniem/HCABlackHoles/ProgramTestData/Faces')
 
 all_photos = car_photos + face_photos
 
-# Feature Extraction #? NEW ADDITION--DIFFERENT METHOD
+# Feature Extraction 
 def extract_features(images, size=(64, 64)):
     features = []
     win_size = size
@@ -64,16 +64,13 @@ dendrogram(Z)
 plt.show()
 
 # Cluster Analysis
-# *Cutting the dendrogram at a specific height to form clusters:
-max_d = 10 # !POSSIBLY ADJUST BASED ON VALUE OF DENDROGRAM
+# Cutting the dendrogram at a specific height to form clusters:
+max_d = 50
 clusters = fcluster(Z, max_d, criterion = 'distance')
 
-# Determine Clusters and Assign Labels #? NEW ADDITION
+# Determine Clusters and Assign Labels
 num_clusters = 2
 clusters = fcluster(Z, num_clusters, criterion='maxclust')
-
-# Analyze Clusters
-# *Need to plan further--group photos by cluster labels and compare actual vs. simulated photos?
 
 # Print Cluster Assignments
 for i, cluster_label in enumerate(clusters):
@@ -82,7 +79,7 @@ for i, cluster_label in enumerate(clusters):
     else:
         print(f'Face photo {i - len(car_photos)} is in cluster {cluster_label}.')
 
-# Plotting Cluster Images # ?NEW ADDITION
+# Plotting Cluster Images
 def plot_clusters(images, clusters, n_clusters):
     cluster_dict = {i: [] for i in range(1, n_clusters + 1)}
     for idx, cluster_label in enumerate(clusters):
