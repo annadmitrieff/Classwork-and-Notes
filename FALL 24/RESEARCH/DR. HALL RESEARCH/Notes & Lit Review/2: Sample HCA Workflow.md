@@ -187,24 +187,44 @@ plt.title('Dendogram for Face and Car Photos')
 dendrogram(Z)
 plt.show()
 ```
+This subsection visualizes the results of hierarchical clustering using a dendogram, which is beneficial for understanding the hierarchical relationships between the data points and how clusters are formed and merged.
+- `plt.figure(figsize = (10, 7))` calls the Matplotlib `plt.figure` function to plot the dendogram, taking input parameters that specify the size of the figure in inches (width = 10" and height = 7").
+- `plt.title('Dendogram for Face and Car Photos')` calls the Matplotlib `plt.title` to set the title of the plot.
+- `dendrogram(Z)` creates the dendrogram using the `dendrogram` function from the `scipy.cluster.hierarchy` module using the linkage matrix obtained from the hierarchical clustering step.
+- `plt.show` displays the plot using the respective Matplotlib function.
+
+![Dendrogram](https://github.com/user-attachments/assets/c0bf79e0-94f6-49e5-a690-c02af94adaa7)
 
 ```
 # Cluster Analysis
-# *Cutting the dendrogram at a specific height to form clusters:
-max_d = 10 # !POSSIBLY ADJUST BASED ON VALUE OF DENDROGRAM
+# Cutting the dendrogram at a specific height to form clusters:
+max_d = 50 
 clusters = fcluster(Z, max_d, criterion = 'distance')
 ```
+This subsection determines the clusters by cutting the dendrogram at a specified height, resulting in a flat clustering of the data points, allowing control over the maximum distance between clusters.
+- `max_d = 50` defines the height of the dendrogram, which determines the threshold distance for forming clusters: in other words, the maximum distance between clusters for data to be considered part of the same cluster.
+     - A higher distance threshold allows for more distant points to be included in the same cluster. This means that fewer cuts are made in the dendrogram, resulting in larger clusters and thus fewer overall clusters: the cut line is higher up in the dendrogram, which means that clusters are allowed to join at a higher distance. This results in fewer, larger clusters.
+     - A lower distance threshold means that only points very close to each other will be included in the same cluster. This results in more cuts in the dendrogram, leading to smaller clusters and thus more clusters: the cut line is lower in the dendrogram, meaning that clusters are only formed by very close points. This results in more, smaller clusters.
+- `clusters` calls the function `fcluster` from the `scipy.cluster.hierarchy` module to form flat clusters by cutting the dendrogram.
+     - `fcluster` takes the inputs `Z`, `max_d`, and `criterion` to generate a list of cluster labels for each data point based on the specified distance criterion.
+          - `Z` is the linkage matrix obtained from the hierarchical clustering step.
+          - `max_d` is the threshold distance for forming clusters.
+          - `criterion='distance':` specifies that clusters should be formed by cutting the dendrogram at the given max_d distance.
+     - `fcluster` returns an array where each element is the cluster label assigned to the corresponding data point.
 
 ```
-# Determine Clusters and Assign Labels #? NEW ADDITION
+# Determine Clusters and Assign Labels
 num_clusters = 2
 clusters = fcluster(Z, num_clusters, criterion='maxclust')
 ```
-
-```
-# Analyze Clusters
-# *Need to plan further--group photos by cluster labels and compare actual vs. simulated photos?
-```
+This section determines the clusters by specifying the desired number of clusters, allowing the user to define the number of clusters formed, which can be useful when you have a specific requirement or expectation for the number of clusters.
+- The variable `num_clusters` is set to 2, for the 2 expected clusters we aim to produce (cars and faces).
+- `clusters` calls the `scipy` function `fcluster` to form flat clusters from the hierarchical clustering.
+     - `fcluster` takes the same input `Z` as well as `num_clusters` and `criterion`.
+          - `num_clusters` describes the number of clusters to form.
+          - `criterion='maxclust` specifies that exactly n = `num_clusters` clusters should form.
+     - This produces an array of cluster labels, where each label corresponds to a cluster assignment for a data point.
+          - Because we have 6 datapoints and 2 designated clusters, the `clusters` array may look like `[1, 1, 1, 2, 2, 2]`, indicating the cluster membership of each point. 
 
 ```
 # Print Cluster Assignments
@@ -214,9 +234,30 @@ for i, cluster_label in enumerate(clusters):
     else:
         print(f'Face photo {i - len(car_photos)} is in cluster {cluster_label}.')
 ```
+This conditional prints the cluster assignments for each image, differentiating between car photos and face photos:
+- The `for` statement starts a loop that iterates over each element in the `clusters` array. The variable `i` is the index, and `cluster_label` is the cluster label assigned to the `i`-th image.
+     - `enumerate(clusters):` generates pairs of index and cluster label for each element in the clusters array.
+- The `if` statement checks if the index `i` is less than the length of `car_photos` to determine whether the current image is a photo of a car or a face based on its position in the combined `all_photos` list.
+     - `len(car_photos):` is the number of car photos. If `i` is less than this value, it indicates that the current image is a car photo.
+- `print(f'Car photo {i} is in cluster {cluster_label}.')` prints a message indicating the index of the car photo (if the current image is a car photo) and the cluster it belongs to, using an f-string to format the message, including the index `i` and the cluster label `cluster_label`.
+- The `else` clause indicates the start of an alternative action if the condition `i < len(car_photos)` is not met, handling the case where the current image is not a car photo (i.e., it is a face photo).
+- The statement `print(f'Face photo {i - len(car_photos)} is in cluster {cluster_label}.')` prints a message indicating the index of the face photo and the cluster it belongs to using an f-string to format the message, including an adjusted index and the cluster label `cluster_label`.
+     - The statement uses `i - len(car_photos)` to adjust the index for face photos, since face photos come after car photos in the combined `all_photos` list. 
+
+> Car photo 0 is in cluster 2.
+
+> Car photo 1 is in cluster 2.
+
+> Car photo 2 is in cluster 2.
+
+> Face photo 0 is in cluster 1.
+
+> Face photo 1 is in cluster 1.
+
+> Face photo 2 is in cluster 1.
 
 ```
-# Plotting Cluster Images # ?NEW ADDITION
+# Plotting Cluster Images
 def plot_clusters(images, clusters, n_clusters):
     cluster_dict = {i: [] for i in range(1, n_clusters + 1)}
     for idx, cluster_label in enumerate(clusters):
@@ -234,8 +275,24 @@ def plot_clusters(images, clusters, n_clusters):
 
 plot_clusters(all_photos, clusters, num_clusters)
 ```
+This subsection verifies the cluster assignments by plotting the images grouped by their clusters. 
+- `def plot_clusters(images, clusters, n_clusters):` defines a function that takes three arguments, `images`, `clusters`, and `n_clusters`, to create a function that will plot images grouped by their cluster assignments.
+- The variable `cluster_dict` initializes a dictionary, `cluster_dict` where the keys are cluster labels and the values are empty lists, in order to prepare a structure for storing images grouped by their cluster assignments.
+- The loop `for idx, cluster_label in enumerate(clusters):` loops through each image index and its corresponding label.
+     - The succeeding line `cluster_dict[cluster_label].append(images[idx])` appends the image to the appropriate list in `cluster_dict` to group images by their cluster assignments.
+- `fig, axes = plt.subplots(n_clusters, len(images)//n_clusters, figsize=(10, 5))` line creates a figure and a grid of subplots using Matplotlib's `plt.subplots()` function, accepting the inputs:
+     - `n_clusters` is the number of rows (one for each cluster).
+     - `len(images)//n_clusters` is the number of columns (distributing images evenly across rows), determined using floor division of the number of images by the number of clusters in which the images are grouped (\dfrac{6}{2} = 3).
+     - `figsize=(10, 5)` specifies the size of the figure.
+- `for cluster_label, cluster_images in cluster_dict.items():` starts a loop that iterates over each cluster label and its corresponding list of images in order to process each cluster separately.
+- `for i, ax in enumerate(axes[cluster_label - 1]):` loops through the images in each cluster for every `i` (index of the current subplot in the iteration) and `ax` (current axis object/subplot in the iteration).
+     - `enumerate(axes[cluster_label - 1]):` iterates through the subplots for the current cluster.
+     -  `if i < len(cluster_images):` checks if there are still images to plot for the current cluster.
+     -  `ax.imshow(cluster_images[i], cmap='gray')` displays the image `i` in grayscale.
+     -  `ax.set_title(f'Cluster {cluster_label}')` sets the title of the subplot to indicate the cluster label.
+     -  `ax.axis('off'):` turns off the axis labels (aesthetic choice).
+- `plt.tight_layout()` adjusts the layout of the subplots to prevent overlap and display the figure (another aesthetic choice).
+- `plt.show()` displays the figure.
+- `plot_clusters(all_photos, clusters, num_clusters)` calls the `plot_clusters` function with `all_photos`, `clusters`, and `num_clusters` as arguments to execute the function and plot the images grouped by their cluster assignments.
 
-## Vocabulary
-Array
-Feature Array
-HOG
+![Clustering](https://github.com/user-attachments/assets/9e8c0c39-7986-48d1-8777-73da3e29c640)
