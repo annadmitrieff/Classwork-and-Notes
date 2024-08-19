@@ -24,4 +24,4 @@ x * y # Multiplication
 x / y # Division
 x ^ y # Exponentiation
 x %% y # Modulus
-x %/%y # Integer Division (Floor Function)
+x %/% y # Integer Division (Floor Function)
