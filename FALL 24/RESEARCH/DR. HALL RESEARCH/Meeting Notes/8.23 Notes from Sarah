@@ -1,0 +1,29 @@
+## 8.23 Correspondence with Sarah
+%I'll write these up formally when I have time...
+
+Just wanted to acknowledge that I saw your email and let you know that I'm working on putting together a summary of all the work I did with HCA - I have a handful of Jupyter notebooks, scripts, and links to articles that might? (hopefully?) be helpful. Basically, we were trying to see if machine learning could produce useful classifications of protoplanetary disk images without any human input or labeling (i.e. unsupervised). There's no comprehensive classification scheme for PPDs yet (like there is for galaxies), so this could be helpful in identifying useful features (sometimes, ML picks up on patterns that humans don't) or determining a good classification scheme. Another thing Cass wanted to look at is whether it could help identify planets. 
+
+To answer a few of your questions:
+We needed a method that would reliably cluster small datasets because we were working with DSHARP (only 20 images). We wanted to do this purely with observational data, and DSHARP is pretty much it in terms of high-res images of PPDs. 
+I tried using k-means clustering at first. I was working on a small test dataset and k-means absolutely sucked at correctly labeling the images. There just wasn't enough data. So I looked for other variations of clustering. HCA is known to work for small datasets. That's why I used it. K-means might work for you if you're using more data. There are pros and cons to both algorithms. 
+HCA alone wasn't enough to get the test dataset to behave. I also used something called image augmentation, which is where you create artificial datapoints from the real images to boost the dataset size (then you remove the artificial images at the end). This made the test dataset large enough for feature extraction and HCA to work on it. Again, maybe not so relevant if you're using large amounts of simulation data. 
+I also tried using different feature extraction methods. I initially used HOG, which didn't work. There are pre-trained CNNs that do feature extraction, so I went with those instead. The one I found to work the best was InceptionV3. 
+I applied this method to the DSHARP data. If I recall correctly, the algorithm insisted on clustering based on:
+-  inclination and position angle
+- the apparent size of the disk in the image
+- where the disk was centered in the image
+- instrument resolution
+I managed to remove all of these features from the dataset via preprocessing, except the varying resolutions. Cass gave me a script to try to make them all the same resolution but I never finished applying it.
+
+Even without correcting for resolution, there were some useful results that suggested HCA was working. After preprocessing, it seemed to be clustering based on:
+Disks with gaps and rings, and those without
+Number of rings
+Width of gaps
+Disks with spirals vs. those without
+
+These features depend on the actual disk morphology rather than the way it was imaged, so they're more useful. 
+
+To summarize:
+I used HCA because it worked for the small dataset, and I was only using observational data. I'm not sure how optimized it would be for a large dataset (it's kind of slow) or how it would work with a hybrid approach as you're discussing. I was basically just feeding all the images into the feature extractor, then throwing that output into the clustering algorithm. I suspect if you did this with any type of clustering, it would just cluster based on whether the disk is real or simulated, and you'd have to figure out how to keep it from doing that. It sounds like what you worked on this summer and your next step in this project (working with ALMA data) is similar to what I did last year.
+
+Wow, this email ended up being a lot longer than I intended. I hope some of this helps. I will work on sending you my materials and code and whatnot, but I need to organize it and remember what exactly I did. I will get it to you as soon as I can. Good luck!
