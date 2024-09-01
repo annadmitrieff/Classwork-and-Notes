@@ -131,8 +131,8 @@ The properties of self-gravitating discs can be described under thermal equilibr
 **Steady State Equations:**
 The profiles of $\Sigma$ and T can be derived from the balance of heating and cooling:
 
-$$\Sigma (R) \propto \dot M^{\dfrac{2}{3}}R^{-\dfrac{3}{4}}$$
-$$T(R) \propto \dot M^{\dfrac{1}{3}} R^{-\dfrac{3}{4}}
+$$\Sigma (R) \propto \dot M ^{ \frac{2}{3} } R^{ - \frac{3}{4} }$$
+$$T(R) \propto \dot M ^{ \frac{1}{3} } R^{- \frac{3}{4} }$$
 - $R = \text{radius from central star}$
 - $\dot M = \text{steady state accretion rate}$
 
